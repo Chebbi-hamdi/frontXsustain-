@@ -1,0 +1,22 @@
+/* style.module.scss */
+
+.container {
+  display: flex;
+height: 100vh!important;
+  .sidebar {
+  /* Styles spécifiques à la sidebar */
+  height: 100vh;
+
+}
+  .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+}
+
+
+
+/* Pour un positionnement fixe de la navbar en haut, vous pouvez utiliser position: fixed; top: 0; left: 0; */

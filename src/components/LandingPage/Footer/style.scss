@@ -1,0 +1,341 @@
+.footerDiv {
+  width: 100%;
+height: 650px;
+  background: #000;
+  z-index: 1; 
+  position: relative;
+  
+}
+.Follow{
+  font-family: "GrifterBold", sans-serif;
+  color: #fff;
+  font-size: min(1.2vw,50px);
+  margin: 0;
+  padding: 0;
+
+}
+.right-footer-box{
+    position: absolute;
+    right: 0;
+    height: 600px;
+}
+.left-footer-box{
+    position: absolute;
+    left: 0;
+    height: 600px;
+
+}
+.right-footer-box img, .left-footer-box img{
+    height: 100%;
+}
+.subTitle {
+  color: #fff;
+  font-family: "GrifterBold", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 96%; /* 34.56px */
+}
+
+.footer-box{
+    position: absolute;
+left: 0;
+width: 100%;
+
+}
+
+.logo2 {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.customFooterButton{
+    border-radius: 6px;
+border: 3px solid #FFF;
+box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.04);
+width: 245px;
+height: 47px;
+flex-shrink: 0;
+}
+.positionGrpSvg{
+    margin-bottom: -5%;
+    z-index: 0;
+    position: absolute;
+    top: -40%;
+}
+.iconss {
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+
+}
+
+.icon {
+    padding-left: 0; 
+    padding-right: 9px;
+    padding-bottom: 5px;
+    height: 2vw;
+    width: 1.5vw;
+
+}
+.Copyrights{
+    color: #FFF;
+    font-family: "GrifterBold", sans-serif;
+    width: 100%;
+
+}
+
+@media (max-width: 768px) {
+  .hidden{
+    display: none;
+  }
+  .footer-links{
+    height: 10%;
+  }
+  .divFollow{
+    height: 10%!important;
+  }
+  .footerDiv {
+    width: 100%;
+    height: 400px;
+    background: #000;
+    z-index: 1; 
+    position: relative;
+  }
+  .centerHello{
+    height: 50%!important;
+  }
+  .grid {
+    display: grid;
+    padding-top: 45px;
+    grid-template-rows: repeat(6, 1fr); /* Define 6 rows for phone version */
+    grid-template-columns: 1fr; /* Single column layout for phone version */
+    gap: 0;
+    width: 100%;
+    height: 98%;
+}
+.logo2 {
+	grid-area: 1/1/2/2;
+    width: 100%;
+    padding-left: 0% !important;
+}
+.iconss {
+    justify-content: space-between;
+}
+.icon{
+    width: 20px;
+}
+.subTitle {
+    color: #fff;
+    font-family: "GrifterBold", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 96%;
+    width: 100%;
+}
+.customFooterButton {
+    border-radius: 6px;
+    border: 3px solid #FFF;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.04);
+    width: 346.859px;
+    height: 47px;
+    flex-shrink: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.login {
+display: flex;
+width: 40%;
+}
+.LineStyle {
+    --container-width: 50%;
+    --spacing: 10%; 
+
+    --start-point: calc((var(--spacing) / 2) / var(--container-width) * 100);
+    --end-point: calc((100 - (var(--spacing) / 2)) / var(--container-width) * 100);
+
+   padding-left: 2%;
+    stroke-width: 1px; /* Stroke width of the line */
+}
+
+
+.Follow{
+  font-family: "GrifterBold", sans-serif;
+  color: #fff;
+
+}
+.Copyrights{
+    color: #FFF;
+    padding-bottom: 5% !important;
+    font-family: "GrifterBold", sans-serif;
+    padding-left: 5%;
+    font-size: 13px;
+
+
+
+}
+.footer-links {
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items to the start vertically */
+    flex-wrap: wrap; /* Allow items to wrap if needed */
+}
+
+.footer-links p {
+    font-size: 1.5vw!important;
+    margin: 0!important; /* Remove default margins */
+    padding: 0!important;
+}
+
+.footer-links-right {
+    font-size: 1.5vw!important;
+
+}
+
+.positionGrpSvg{
+    width: 230px;
+    height: 230px;
+    margin-bottom: -19%;
+    z-index: 0;
+}
+}
+.LeFlexHeadFooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.centerFooter{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    border-bottom: 1px solid white;
+    padding-bottom: 21px;
+    padding-top: 21px;
+
+    height: 7vh;
+
+
+}
+.divFollow{
+    height: 24%;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+
+    }
+.centerDivHello{
+    height: 40%;
+    width: 90%;
+
+
+}
+.FooterTitle {
+    width: 100%;
+    height: 35vh;
+    min-height: 369px;
+}
+.centerHello{
+    font-weight: 700;
+    width: 100%;
+    display: flex;
+    align-items: center;
+justify-content: center;
+height: 100%;
+
+
+
+}
+.centerHellop{
+    padding: 0!important;
+    margin: 0!important;
+    font-family: "GrifterBold", sans-serif;
+    font-size:min(27.5vw,450px)!important;
+
+    color: #fff;
+    font-style: normal;
+
+}
+.footer-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.centerCopyright{
+    height: 90%;
+    width: 100%;
+    display: flex;
+}
+.flexCopy{
+    display: flex;
+    width: 90%;
+}
+.footer-links-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5%;
+    color: #FFF;
+    font-size: min(1vw,40px);
+    font-family: "GrifterBold", sans-serif;
+    width: 100%;
+    
+}
+.relativediv {
+    position: relative;
+    width: 100%;
+    height: 90%;
+
+    .lefthand, .rightHand, .centerDivHello, .footerDiv {
+        transition: all 0.5s ease; /* Adjust the transition duration and easing function as needed */
+    }
+}
+
+.rightHand {
+    position: absolute;
+    left: -100%;
+    top: -10%;
+}
+
+.lefthand {
+    position: absolute;
+    right: -100%;
+}
+
+.relativediv.hover .lefthand {
+    position: absolute;
+    right: -10%;
+}
+
+.relativediv.hover .rightHand {
+    position: absolute;
+    left: 0%;
+}
+
+.relativediv.hover .centerDivHello {
+    width: 53%; /* Adjust the width as needed */
+}
+
+.relativediv.hover .footerDiv {
+    background-color: #2468FF; /* Adjust the background color as needed */
+}
+.trans_right_box{
+
+}
+.trans_left_box{
+    width: 110%;
+    height: 100%;
+}   
+.centerCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}

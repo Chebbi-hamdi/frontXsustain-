@@ -1,0 +1,27 @@
+.Custom{
+    .CustomImg{
+        height: 90%!important;
+    }
+    &:hover {
+        // Define styles for hover state
+        background-color:aquamarine;
+        // For example, change border color
+        transition-duration: 0.6s; /* Durée de la transition */
+        
+        cursor: pointer;
+        .CustomImg{       
+            
+            padding-left: 3em!important;
+            transition-duration: 0.6s; /* Durée de la transition */
+
+        
+        }
+        .CustomTxt{
+            transition-duration: 0.6s; /* Durée de la transition */
+
+            color: white;
+        }
+     
+    }
+
+}

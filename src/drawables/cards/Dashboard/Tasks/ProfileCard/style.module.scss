@@ -1,0 +1,80 @@
+.MainReview{
+    border: 1.5px solid black;
+    border-radius: 9px;
+    &:hover {
+        // Define styles for hover state
+        background-color: blue;
+        cursor: pointer;
+        transition-duration: 1s; /* Durée de la transition */
+
+        // For example, change border color
+        .fullHeight{
+            .fullHeight1{
+                .WelcomeTxt{
+                    width: 60%!important;
+                    transition-duration: 1s; /* Durée de la transition */
+
+                    .Welcom{
+                        color: white!important;
+                        transition-duration: 1s; /* Durée de la transition */
+
+                    }
+                    .Name{
+                        color: white!important;
+                        transition-duration: 1s; /* Durée de la transition */
+
+
+                    }
+                }
+            }
+        }
+    }
+    .fullHeight{
+        height: 100%;
+        .fullHeight1{
+
+
+
+
+            .WelcomeTxt{
+                gap: 8px!important;
+                display: flex;
+                flex-direction: column;
+              
+    
+            
+        
+                .Welcom{
+                    font-family: "AeonikTRIAL"!important;
+                    color: #737373;
+
+                    font-family: Aeonik;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    
+        
+                }
+                .Name{
+                    font-family: "AeonikTRIAL"!important;
+                    color: #000000;
+
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                                
+        
+        
+                }
+            }
+            .Image{
+                height: 80%;
+            }
+        }
+
+    }
+    }
+
+    

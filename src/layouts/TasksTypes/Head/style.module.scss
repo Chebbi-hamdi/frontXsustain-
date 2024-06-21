@@ -1,0 +1,319 @@
+.FlexMain {
+  // justify-content: flex-start;
+  // align-items: center;
+  // gap: 1em;
+  width: 100%;
+  height: 4.3em !important;
+  // padding: 0.5em !important;
+  display: flex;
+
+  // .Nav:hover {
+  //   color: #fff;
+  // }
+  // .Nav {
+  //   width: 100%;
+  //   display: flex;
+  //   align-items: center;
+  //   justify-content: flex-start;
+
+  // .Ul {
+  //   display: flex;
+  //   flex-direction: row;
+  //   justify-content: space-between;
+  //   list-style-type: none;
+  //   padding: 0;
+  // }
+  // .Li:hover {
+  //   background: #2468ff;
+  // }
+
+  // .Li {
+  //   display: flex;
+  //   justify-content: center;
+  //   width: 20%; // Adjust this value as needed
+  //   border: 1px solid #e0e0e0;
+  // }
+  .DivContainer {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    width: 20%;
+    border: 1px solid #8e8e8e;
+    border-right: none;
+    justify-content: center;
+    // padding-bottom: 5px;
+  }
+  // .DivContainer:hover {
+  //   background: #2468ff;
+  //   p,
+  //   span {
+  //     color: #fff !important;
+  //   }
+  // }
+.DivNav {
+  display: flex;
+    flex-direction: row;
+    padding: 0;
+    width: 20%;
+    border-right: 1px solid #8e8e8e;}
+  .DivItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%; // Adjust this value as needed
+    // border: 1px solid #e0e0e0;
+  }
+  .DivNav:hover {
+    background: red;
+    // p,
+    // span {
+    //   color: #fff !important;
+    // }
+  }
+.DivItem1 {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;}
+  .DivItem1:hover {
+    background: red;
+    // p
+    // span {
+    //   color: #fff !important;
+    // }
+  }
+  select {
+    width: 100%;
+  }
+  .Options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+  }
+
+  .LabelAndIcon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 12vw;
+  }
+
+  .SelectedOption {
+    font-family: Aeonik;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 2px;
+    color: #000;
+  }
+  /* ListContainer.module.scss */
+
+  .OpenListContainer {
+    position: absolute;
+    width: 35%;
+    height: 60%;
+    top: 10em;
+    border-radius: 6px;
+    border: 2px #2468ff solid;
+    background: white;
+  }
+  .CardTitle {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+    // gap: 1em;
+  }
+  .TaskTitle {
+    font-family: "Aeonik";
+    font-size: 16px;
+    font-weight: 400;
+    color: #424141;
+  }
+
+  .TaskTitleCard {
+    font-family: "Aeonik";
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .DescriptionTask {
+    font-family: "Aeonik";
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    color: #2468ff;
+  }
+  .TaskSelect {
+    color: #ababab;
+
+    font-family: AeonikTRIAL;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 1em;
+  }
+  .Cards {
+    width: 100%;
+    display: flex;
+    gap: 2em;
+    /* row-gap: 2em; */
+    /* padding: 1em 1em 1em 3em; */
+    background: white;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .DeliveryTimeCard {
+    background: #fff;
+    width: 18%;
+
+    .Cards {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 2em;
+      background: white;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+    .Card {
+      border: none;
+      width: 100%;
+      height: 100%;
+      padding-left: 1em;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: row;
+    }
+    .Card:hover {
+      border: none;
+    }
+    .Card img {
+      width: 20%;
+      height: 20%;
+    }
+    .Card h2 {
+      font-family: Aeonik;
+      font-size: 14px;
+      font-weight: 500;
+      text-align: center;
+    }
+  }
+
+  .Card {
+    width: 25%;
+    height: 7.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #777575;
+    border-radius: 7px;
+    justify-content: center;
+  }
+
+  .Card:hover {
+    border: 2px solid #2468ff;
+  }
+
+  .Card img {
+    width: 30%;
+    height: 30%;
+  }
+
+  .Card h2 {
+    font-family: Aeonik;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.24px;
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+  }
+}
+
+// .ListContainer h2 {
+//   font-family: Aeonik;
+//   font-size: 18px;
+//   font-weight: 500;
+// }
+
+// .ListContainer ul {
+//   list-style: none;
+//   width: 80%;
+//   height: 40vh;
+//   /* gap: 4em; */
+//   display: flex;
+//   flex-wrap: wrap;
+//   justify-content: space-around;
+//   align-items: center;
+// }
+
+// .ListContainer li {
+//   display: flex;
+//   width: 20%;
+//   height: 10vh;
+//   padding: 1em;
+//   border-radius: 7px;
+//   border: 1px solid #777575;
+//   flex-direction: column;
+//   align-items: center;
+// }
+
+// .ListContainer li:hover {
+//   border: 2px solid #2468ff;
+// }
+
+// .ListContainer img {
+//   width: 30%;
+//   height: 30%;
+//   margin-right: 1em;
+// }
+
+// .ListContainer p {
+//   font-family: AeonikTRIAL;
+//   font-size: 14px;
+//   font-weight: 400;
+// }
+
+//   .TaskTitle {
+//     font-size: 16px;
+//     font-weight: 400;
+//     font-family: "AeonikTRIAL";
+//     color: #8e8e8e;
+//   }
+//   .SelectedOption {
+//     font-size: 16px;
+//     font-weight: 500;
+//     padding: 2px;
+//     font-family: "Aeonik";
+//     color: #000;
+//   }
+
+//   svg {
+//     cursor: pointer;
+//     padding-left: 35px;
+//   }
+// }
+
+.Draw {
+  position: absolute;
+  right: 0;
+  top: 10vh;
+  // transform: translateX(0%);
+}
+
+// select {
+//   border: none;
+//   // Other styles...
+//   background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none"><path d="M21.25 15.5833L17 19.8333L12.75 15.5833" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>')
+//     no-repeat right center;
+//   -webkit-appearance: none; // Removes the default dropdown arrow in WebKit browsers
+//   -moz-appearance: none; // Removes the default dropdown arrow in Firefox
+//   appearance: none; // Removes the default dropdown arrow in other browsers
+// }
+// select:focus {
+//   outline: none; // Removes the default dropdown arrow in Internet Explorer
+// }

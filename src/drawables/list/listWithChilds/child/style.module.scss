@@ -1,0 +1,99 @@
+.liii {
+    margin-left: 1rem 0;
+    display: flex; /* Utilisez Flexbox pour aligner les éléments enfants horizontalement */
+    align-items: center;
+    height: 34px;
+    justify-content: center; /* Alignez les éléments horizontalement */
+    width: 60%;
+    padding-left: 1.2vw;
+    cursor: pointer; /* Changez le curseur en une main */
+    color: rgb(255, 255, 255);
+    z-index: 999999999999999999999999999999!important;
+    &:hover {
+      cursor: pointer; /* Changez le curseur en une main */
+      color: white;
+      .textt{
+        color: #2468FF!important;       
+  }
+      .img {
+        filter: brightness(0) saturate(100%) invert(36%) sepia(91%) saturate(3259%) hue-rotate(213deg) brightness(97%) contrast(108%);              
+        }
+      .notiff {
+        background-color: rgb(255, 255, 255)!important; /* Changez la couleur de fond au survol */
+        color: #2468FF!important;       
+      }
+
+      .box {
+        .Txt_Notif {
+          background-color: wheat;
+        }
+      }
+    }
+    .box {
+      width: 100%;
+      display: flex;
+      gap: 1vw;
+      align-items: center;
+      img {
+        margin-left: 1vw;
+        height: 1.2vw;
+        width: 1.4vw;
+        min-width: 35px;
+        min-height: 20px;
+      }
+      .Txt_Notiff {
+        display: flex;
+        gap: 1.5vw;
+        align-items: baseline;
+        .textt {
+          width: 6.5vw;
+          font-size: 0.8em;
+          color: black;
+        }
+        .notiff {
+          background-color: rgb(255, 251, 251);
+          color: rgb(0, 0, 0);
+          height: 1.5vw;
+          width: 1.5vw;
+          border-radius: 5px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          max-height: 25px;
+          max-width: 25px;
+  
+          .notifTxt {
+            font-weight: 600;
+            font-size: 0.8vw;
+            font-size: min(0.9vw, 15px); /* Adjust the maximum value as per your requirement */
+            
+          }
+        }
+      }
+    }
+  }
+// style.module.scss
+
+.selected {
+  // Styles for the selected state
+}
+
+.selectedImg {
+  filter: brightness(0) saturate(100%) invert(36%) sepia(91%) saturate(3259%) hue-rotate(213deg) brightness(97%) contrast(108%);              
+}
+
+.selectedText {
+  color: #2468FF!important;       
+}
+
+.selectedNotif {
+  color: #2468FF; 
+  background-color: white!important;      
+}
+
+.selectedNotifTxt {
+  color: #2468FF;       
+}
+.selectedTxt_Notif{
+  background-color: white!important;
+}

@@ -1,0 +1,115 @@
+.Main{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    gap: 10px;
+    .leflexx{
+        width: 90%;
+        gap: 10px !important;
+        display: flex;
+        justify-content: flex-end !important;
+        padding-right: 1%;
+        .ImgContact{
+            height: 60px;
+            width: 60px;
+            border-radius: 1rem;
+
+        }
+        .buble{
+            width: 3rem;
+            height: 3rem;
+
+            .span{
+                width: 3rem;
+                height: 3rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                color: white;
+                font-size: 18px;
+            }
+        }
+        .LastMsg{
+            font-size: 0.8em;
+            font-family: "AeonikTRIAL"!important;
+            width: 81% !important;
+
+            .txtCont{
+
+                .lastflex{
+                    .LastMsgText{
+                        display: flex;
+                        justify-content: flex-end!important;
+                        color: #000;
+
+                        font-family: "AeonikTRIAL";
+                        font-size: 1rem;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        letter-spacing: 0.0165rem;            
+                    }
+                    .MessageImageDiv{
+                        display: flex;
+                        justify-content: flex-end!important;
+                        .FullscreenImage {
+                            width: 37%;
+                            z-index: 9999;
+                            background-size: cover;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            border-radius: 10px;
+                    
+                          }
+                        
+                    }
+        
+
+                }
+                
+                .Name_Time{
+                        display: flex;
+                        flex-direction: row;
+                        gap: 10px;
+                        justify-content: flex-end;    
+                        align-items: center;                            
+                        .NameContact{
+                            color: #2468FF;
+
+                            font-family: "AeonikTRIAL";
+                            font-size: 0.8125rem;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            letter-spacing: 0.01788rem;
+                            
+                        }
+                        .TimeMsg{
+                            color: #2468FF;
+
+                            font-family: "AeonikTRIAL";
+                            font-size: 0.5rem;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            letter-spacing: 0.011rem;
+
+                        }
+                    
+                        
+                    }            
+            }
+            
+           
+            
+
+    }
+        
+              
+          
+        
+
+    }
+}

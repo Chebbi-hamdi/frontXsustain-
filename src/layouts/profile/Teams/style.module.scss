@@ -1,0 +1,151 @@
+
+.Main {
+    width: 100%; 
+    height: 90%; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+            
+    .Titles{
+        height: 15%;
+        width: 100%!important;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.709)!important;
+        .insideTitles{
+                font-family: "AeonikTRIAL"!important;
+                width: 30%;
+                .h3Team{
+                    padding-left: 20px;
+                    color: black;
+                    font-size: large!important;
+                }
+                .pTeam{
+                    padding-left: 30px;
+                    color: rgba(0, 0, 0, 0.562);
+                    font-size: small!important;
+                }
+        }
+        .AddTeammateDiv{
+            width: 67.4%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            height: 10%;
+            .AddTeam{
+                height: 1.2em;
+                width: 5%!important;
+                cursor: pointer;
+            }
+            .AddTeamTxt{
+                color: rgba(0, 0, 0, 0.562);
+                font-size: small!important;
+
+            }
+        }
+    }
+    .members{
+        height: 85%;
+        width: 100%;
+        
+        .ListOfMemebers{
+            padding-left: 20px!important;
+            width: 100%;
+            height: 75px;
+            display: flex;
+            gap: 20px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.248);
+            align-items: center;
+            .buble{
+                width: 3%;
+                height: 46%;
+            }
+            .span{
+                height: 46%;
+            }
+            .name_email_Container{
+                .MemberName{
+                    color: black;
+                    }
+                    .MemeberEmail{
+                    color: rgba(0, 0, 0, 0.418);
+                    }
+            }
+            .MemberImg{
+                width: 35px;
+                height: 34px;
+                border-radius: 5px;
+                border: 1px solid rgb(255, 255, 255);
+            }
+            .Trash_Edit0{
+                width: 100%;
+                display: flex;
+                justify-content: flex-end;
+                padding-right: 50px;
+                .Trash_Edit{
+                    width: 100px;
+                    display: flex;
+                    justify-content: flex-end!important;
+                    gap: 20px;
+                    .Edit{
+                        width: 105px;
+                        
+                    }
+                    .trashCan{
+
+                    }
+
+                }
+            }
+            
+    
+            
+
+        }
+        }
+    }
+  
+
+    
+    .Modal {
+        position: fixed;
+        top: 38%;
+        right: 0%;
+        width: 15%;
+        height: 13%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .ModalContent {
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        background-color: rgb(97, 97, 97); /* Opacité */
+
+      }
+      
+      .input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+      
+      button {
+        padding: 10px 20px;
+        background-color: #f6f6f6;
+        color: rgb(0, 0, 0);
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      button:hover {
+        background-color: #8e8a8a;
+        color: #f6f6f6;
+      }
+      .MessageT{
+        cursor: pointer;
+      }

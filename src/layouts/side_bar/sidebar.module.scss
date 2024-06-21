@@ -1,0 +1,103 @@
+//sidebar.module.scss
+.main_card{
+  height: 100vh;
+  max-height: 100vh;
+  overflow: hidden;
+  width: 20% ;
+  min-width: 90px;
+  border-right: 0.5px solid rgba(0, 0, 0, 0.209)!important;
+    .container{
+      position: relative;
+      width: 100%;
+      min-width: 70px;
+      height: 100%;
+      background-color: rgb(255, 255, 255);
+      align-items: center!important;
+      border-right: 1px solid rgba(0, 0, 0, 0.119) !important; /* Ajoutez une bordure noire */
+      .draw{
+        width:84px ;
+        height: 147px;
+        position: fixed;
+        bottom: 0;
+      }
+      .rec1{
+        height: 7.5vh !important;
+        min-height: 72px !important;        border-bottom: 1px solid rgba(0, 0, 0, 0.119) !important; /* Ajoutez une bordure noire */
+        display: grid;
+        .rec11{
+          display: flex;
+          align-items: center;
+          .hh2{
+            margin-left: 23%;
+            font-family: "GRIFTER"!important;
+            font-size: 1.5em;
+            @media (max-width: 1200px) {
+              margin-left: 3%;            
+            }
+              @media (max-width: 1398px) {
+                margin-left: 18%;            
+              }
+            
+                @media (max-width: 1268px) {
+                  margin-left: 15%;            
+                }
+                  @media (max-width: 1268px) {
+                    margin-left: 15%;           
+                  }
+  
+  
+          }
+          .reduceImage {
+            margin-left:15%; // Ajustez la marge supérieure selon vos besoins
+            width:23px;
+            height: 23px;
+            position: relative;
+            z-index: 999999999999999999999999999!important;
+            @media (max-width: 1200px) {
+              margin-left:8%; // Ajustez la marge supérieure selon vos besoins
+            }
+              @media (max-width: 1398px) {
+                margin-left:12%; // Ajustez la marge supérieure selon vos besoins
+              }
+            
+                @media (max-width: 1268px) {
+                  margin-left:10%; // Ajustez la marge supérieure selon vos besoins
+                }
+                @media (max-width: 1100px) {
+                  margin-left:5%; // Ajustez la marge supérieure selon vos besoins
+                }
+
+          }
+        }
+
+      }
+      .rec2{
+        background-color: rgb(255, 255, 255);
+        color: black;
+        align-items: center !important;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        
+
+        .list {
+          list-style-type: none; /* Supprimez les puces de la liste */
+          padding: 0 25px 25px 0; /* Supprimez le remplissage par défaut */
+          font-size: 22px;
+          width: 100%;
+
+          
+        }
+        
+
+
+      }
+      .rec3{
+        height: 169.5px;
+        border: 1px solid rgba(0, 0, 0, 0.119) !important; /* Ajoutez une bordure noire */
+
+      }
+
+
+    }
+}

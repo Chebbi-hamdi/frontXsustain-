@@ -1,0 +1,50 @@
+.MainCardH{
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "GRIFTER";
+    border-bottom: 1px solid rgb(0, 0, 0) !important;
+    border-top: 1px solid rgb(0, 0, 0) !important;
+
+min-height: 53px;
+
+            .UserInfo{
+                display: flex;
+                gap: 1em;
+                .NameH{
+                    color: #1E1E1E;
+
+                    font-family: 'AeonikTRIAL';
+                    font-size: 1.125rem;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    letter-spacing: 0.02475rem;                }
+                .StatusH{                    
+                    font-family: "AeonikTRIAL";
+                    font-size: 0.7em!important;
+                    color: rgba(0, 0, 0, 0.4);
+
+                }
+                .ProfilePicH{
+                    width: 3.0735rem;
+                    height: 3.0735rem;  
+                    border-radius: 1rem;
+
+                }
+            }
+            .ButtonsH{
+                display: flex!important;
+                gap: 1em;
+                justify-content: flex-end;
+                .More,.Phone,.Cam{
+                    cursor: pointer;
+
+                }
+            }
+
+
+
+    }

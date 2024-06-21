@@ -1,0 +1,59 @@
+.MainDisplayPiece{
+    padding-top: 3%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    .Center{
+        width: 94%;
+        height: 95%;
+        .Head{
+            display: flex;
+            gap: 44%;
+            .detailsdiv{
+
+                display: flex;
+                justify-content: flex-end;
+                align-items: flex-start;
+                width: 16%;
+                min-width: 8em;
+                height: 2em;                    
+                cursor: pointer;
+                .buttonDetails{
+                  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.04);
+                  height: 100%;
+                  width: 5.5em;
+
+                    justify-content: center;
+                  border: #D3D3D3;
+                    border-radius: 0.1875rem;
+                    background: #D3D3D3;                        
+                    display: flex;
+                    align-items: center;
+                    .Detailstxt{
+                        color: #313131;
+                        font-family: "AeonikTRIAL";
+                        font-size: 0.75rem;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;  
+                        height: 70%;
+  
+                 }
+                }
+            }
+            .PieceeTxt{
+                display: flex;
+                align-items: center;
+                gap: 0.8em;
+                .imgP{
+                    height: 2em;
+                }
+
+            }
+        }
+
+    }
+}

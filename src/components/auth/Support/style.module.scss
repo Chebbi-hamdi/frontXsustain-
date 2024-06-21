@@ -1,0 +1,22 @@
+.MainCardSupp{
+
+    .LeFlex{
+        flex-direction: column;
+        gap: 3% !important;
+        .Header{
+            display: flex;
+
+
+            .Draw{
+                position: fixed;
+                right: -5%;
+                top: 8.5%;
+            }
+        }
+        .Bodyy{
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+}

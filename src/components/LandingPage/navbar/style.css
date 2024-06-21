@@ -1,0 +1,54 @@
+.navbar {
+    display: flex;
+    gap: 0;
+    width: 100%;
+    align-items: center;
+    height: 100px;
+}
+.logo {
+	width: 75%;
+    height: 22%;
+    padding-left: 61px;
+    display: flex;
+    align-items: center;}
+.login {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap:10px;
+}
+.leflexButn{
+	width: 100%;
+
+}
+.register {
+	background-color: rgba(166,157,72, 0.5);
+}
+.buttonStyle.login {
+    background-color: #ffffff; 
+  }
+  
+.buttonStyle.register {
+    background-color: #000000;
+}
+@media (max-width: 768px) {
+	.phoneNavBar {
+		   margin-top: 5%;
+		   padding-bottom: 3%;
+			display: flex;
+			justify-content: center;
+
+	}
+	.childOfphoneNavBar{
+		display: flex;
+		justify-content: space-between; 
+
+	}
+	.iconNavBar{
+		padding-top: 7%;
+		padding-right: 5%;
+	}
+	.pl-5{
+		padding-left: 5%;
+	}
+}

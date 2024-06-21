@@ -1,0 +1,68 @@
+.MainCardD {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  
+  gap: 3em;
+  .Bodyy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    padding-top: 100px;
+    .CardsContainer {
+      display: flex;
+      justify-content: center;
+
+      .CardsContainer1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        row-gap: 3em;
+        column-gap: 2em;
+        // gap: 2.5em;
+        // height: 55dvh !important;
+      }
+    }
+  }
+
+  .Header {
+    .SearchBar {
+      position: relative;
+
+      width: 80%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      top: 5em !important;
+
+      .SearchBar0 {
+        width: 54.5em !important;
+        height: 3.6em;
+      }
+      .backImg {
+        width: 2em;
+        height: 2em;
+        cursor: pointer;
+        :hover {
+          transform: scale(1.1);
+        }
+      }
+      .btn-send {
+        width: 203px;
+        height: 41px;
+        flex-shrink: 0;
+        border-radius: 6px;
+        background: #2468ff;
+      }
+    }
+
+    // .Draw {
+    //   position: absolute;
+    //   right: 0;
+    //   top: 0;
+    // }
+  }
+}

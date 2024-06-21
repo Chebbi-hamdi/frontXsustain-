@@ -1,0 +1,76 @@
+.MainTabLigneRef{
+    width: 100%;
+    margin-top: 0.1%;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 45px;
+    overflow: auto;
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.1); /* Grey transparent background */
+    }
+
+
+    .leflexEnddd{
+        width: 94% ;
+        gap: 2;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    
+        .invitedDiv,
+        .inviterDiv,
+        .StatusDiv,
+        .PositionDiv,
+        .EarningDiv {
+            height: 80%;
+            width: 22%;
+            .invited {
+                color: var(--Grey-Grey-90, #111827);
+                font-family: "AeonikTRIAL";
+                font-weight: 400;
+                font-size: 0.8vw; /* Set font size to 5% of the viewport width */
+            
+            }
+            .inviter {
+                color: #000;
+                font-family: "AeonikTRIAL";
+                font-weight: 400;
+                font-size: 0.8vw; /* Set font size to 5% of the viewport width */
+            }
+            .statusButt{
+                width: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 28px;
+                border-radius: 3px;
+                cursor: pointer;
+
+                .Status {
+                    color: #000;
+                    font-family: "AeonikTRIAL";
+                    font-weight: 400;
+                    font-size: 0.8vw; /* Set font size to 5% of the viewport width */
+                }
+            }
+            .Position {
+                color: #000000;
+                
+                font-family: "AeonikTRIAL";
+                font-weight: 400;
+                font-size: 0.8vw; /* Set font size to 5% of the viewport width */
+            }
+            .Earning {
+                color: #000;
+
+                font-family: "AeonikTRIAL";
+                font-weight: 400;
+                font-size: 0.8vw; /* Set font size to 5% of the viewport width */
+            }
+
+           
+        }
+    }
+}

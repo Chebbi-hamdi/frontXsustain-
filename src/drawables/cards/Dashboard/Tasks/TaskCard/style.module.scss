@@ -1,0 +1,50 @@
+.Card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 1em;
+  border: 1px solid #000;
+  border-radius: 8px;
+cursor: pointer;
+&:hover{
+}
+  .CardTitle {
+    margin-top: 0.3em;
+
+    font-family: 'AeonikTrial';
+    font-size: 1.4vw;
+    font-weight: 550;
+    margin-bottom: 0.5em;
+  }
+  .center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .CardDescription {
+      font-family: 'AeonikTrial';
+      font-size: 1.1vw;
+      font-weight: 400;
+      text-align: center;
+      color: rgba(0, 0, 0, 0.409);
+      width: 90%;
+      margin-bottom: 0.3em;
+
+    }
+  }
+}
+
+.Card:hover {
+  background-color: #2468FF;
+  color: #FFF;
+  .CardDescription{
+    color:black
+  }
+
+}
+.smallModal{
+  height: 20%;
+  width: 20%;
+}

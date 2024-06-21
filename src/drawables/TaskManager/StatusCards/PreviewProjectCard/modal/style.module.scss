@@ -1,0 +1,508 @@
+.Main {
+  height: 95%;
+  width: 100%!important;
+  display: block;
+z-index: 9999999;
+  .CoverPhoto {
+    height: 30%;
+    width: 100% !important;
+    position: relative;
+    overflow: hidden;
+
+    .coverImage {
+      height: 100%;
+      width: 105%;
+
+      object-fit: fill;         
+      display: block;
+      position: absolute;
+
+    }
+
+    .coverIcon {
+      position: absolute;
+      top: 80%;
+      left: 90%;
+      z-index: 10; // Ensures the icon is above the image
+    }
+  }
+
+  .statusNDTeamMem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30%;
+    width: 100%;
+    .Members{
+      height: 100%;
+      width: 30%;
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end;     
+      padding-left: 1%; 
+      .Center{
+        height: 83%;
+        width: 76%;
+        .txtDiv{
+          height: 21%;
+          width: 100%;
+          .txt{
+            padding-top: 0.5%;
+            color: #000;
+
+            font-family: "AeonikTRIAL";
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+          }
+        }
+        .Add{
+          height: 20%;
+
+          .ImgAddTeammate{
+            z-index: 1;
+  
+            .modalOpen{
+              width: 13em !important;
+              z-index: -1!important;
+  
+            }
+          }
+          .highestIndex {
+            z-index: 9999; /* ou toute autre valeur suffisamment élevée */
+          }
+          
+          .ManageTeammateModal{
+            width: 100%;
+            position: relative; /* Set position to relative */
+
+            height: 19.875rem;
+            border: 0.5px solid #000000af;
+            background: #ffffff;          
+            display: flex;
+            align-items: center;
+            overflow: auto;
+            justify-content: center;
+            .Center{
+              height: 90%;
+              width: 90%;
+              .addmemTxtDiv{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 10%;
+                width: 102%;
+                .closeModal{
+                  position: relative;
+                  top: -10%;
+                  left:30%;
+                }
+      
+                
+  
+                .addmemTxt{
+                  color: #000;
+                  font-family: "AeonikTRIAL";
+                  font-size: 0.75rem;
+                  font-style: normal;
+                  font-weight: 400;
+                  line-height: normal;
+                }
+                
+              }
+              .header{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                .auto {
+                  position: relative;
+                  left: -1000px;
+                }
+                
+                .auto .dropdown {
+                  background-color: rgb(255, 0, 0);
+                  border: 1px solid #ccc;
+                  border-top: none;
+                  position: relative;
+                  width: calc(100% - 2px);
+                  top: calc(100% - 1px);
+                  left: -100%;
+                  max-height: 200px;
+                  overflow-y: auto;
+                }
+                
+                .auto .dropdown div {
+                  padding: 5px;
+                }
+                
+                .auto .dropdown div:hover {
+                  background-color: #f2f2f2;
+                }
+                                                .SearchBar{
+                  width: 100%;
+                  justify-content: center;
+                  display: flex;
+                  align-items: center;
+                }
+              }
+              .TitileParticipantsDiv{
+                margin-bottom: 5%;
+                height: 10%;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                .TitileParticipantsTxt{
+                  width: 99%;
+                  height: 50%;
+                  color: #000;
+                  font-family: "AeonikTRIAL";
+                  font-size: 0.75rem;
+                  font-style: normal;
+                  font-weight: 400;
+                  line-height: normal;
+                }
+              }
+              .flexParticipant{
+                align-items: center;
+                flex-direction: column;
+                width: 100%;
+                height: 22%;
+                .ParticipantsMapDiv{
+                  display: flex;
+                  align-items: center;
+                  width: 100%;
+                  height: 100%;
+                  margin-bottom: 5%;
+  
+                  .divNameParticipant{
+                    height: 100%;
+                    width: 80%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .NameParticipantTxt{
+                      width: 80%;
+                      height: 42%;
+                      color: #000;
+                      font-family: "AeonikTRIAL";
+                      font-size: 0.7rem;
+                      font-style: normal;
+                      font-weight: 300;
+                      line-height: normal;
+                    }
+                  }
+                  .memberBubble {
+                    width: 2.125rem;
+                    height: 2.125rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+                    color: white;
+                    font-size: 18px;
+                    .spanLetter{
+                      height: 55%;
+                      font-size: 0.9rem;
+                    }
+                  }
+                  .imageDiv{
+
+                    .profileImage{
+                      width: 36px;
+                      height: 36px;                    
+                        border-radius: 5px;
+                      border: 1px solid rgba(0, 0, 0, 0.212);
+                              }
+
+                  }
+                 
+                }
+  
+  
+              } 
+              .TitileOwnerDiv{
+                height: 20%;
+                display: flex;
+                
+                align-items: center;
+                justify-content: flex-end;
+                .TitileOwnerTxt{
+                  width: 99%;
+                  height: 0%;
+                  color: #000;
+                  font-family: "AeonikTRIAL";
+                  font-size: 0.75rem;
+                  font-style: normal;
+                  font-weight: 400;
+                  line-height: normal;
+                }
+              }
+              .flexOwner{
+                align-items: center;
+                width: 100%;
+                height: 22%;
+                .divNameOwner{
+                  height: 100%;
+                  width: 95%;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  .NameOwnerTxt{
+                    width: 80%;
+                    height: 35%;
+                    color: #000;
+  
+                    font-family: "AeonikTRIAL";
+                    font-size: 0.7rem;
+                    font-style: normal;
+                    font-weight: 300;
+                    line-height: normal;              
+  
+                  }
+                }
+                .memberBubble {
+                  width: 2.125rem;
+                  height: 2.125rem;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  border-radius: 50%;
+                  color: white;
+                  font-size: 24px;
+                  margin-bottom: 5px;
+                  .spanLetter{
+                    height: 50%;
+                    font-size: 0.9rem;
+                  }
+                }
+  
+              }
+              .divOwnerBuble{
+                
+              }
+            }
+  
+          }
+        }
+        .Add1{
+          height: 20%;
+
+          .ImgAddTeammate{
+            z-index: 1;
+            padding-top: 1%;
+  
+            .modalOpen{
+              width: 13rem !important;
+              z-index: -1!important;
+
+  
+            }
+          }
+          .bigone{
+            height: 100%;
+            width: 100%;
+             .ManageModalfile{
+              position: relative;
+              z-index: 99999;
+            width: 100%;
+            height: 10em;
+            border: 1px solid #000000af;
+            background: #ffffff;          
+            display: flex;
+            align-items: center;
+            overflow: auto;
+            justify-content: center;
+            .Centerfile{
+              height: 90%;
+              width: 90%;
+              .fileaddDiv{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 10%;
+                width: 102%;
+                margin-bottom: 2%;
+                .closeModal{
+                  position: relative;
+                  top: -10%;
+                  left:30%;
+                }
+      
+                
+  
+                .addfiletxt{
+                  color: #000;
+                  font-family: "AeonikTRIAL";
+                  font-size: 0.75rem;
+                  font-style: normal;
+                  font-weight: 400;
+                  line-height: normal;
+                }
+                
+              }
+              .fileUploadContainer{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              }
+              .addButtonFile{
+                margin-top: 2%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .uploadButton{
+                  background-color: rgba(169, 169, 169, 0.619);
+                  color: black;
+                  border: 0.5px solid black;
+                  height: 23px;
+                  border-radius: 4px;
+                  cursor: pointer;
+                  transition: background-color 0.3s ease 0s;
+                  font-size: 0.7rem;
+                  width: 185px;
+                }
+
+              }
+
+             
+            }
+  
+          }
+          }
+         
+        }
+
+      }
+
+    }
+    .Status{
+      width: 68%;
+      height: 90%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;      
+      .Center{
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .StatusDiv{
+          height: 20%;
+          width: 95%;
+          .StatusTxt{
+            color: #000;
+            font-family: "AeonikTrial";
+            font-size: 1.3125rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+          }
+  
+        }
+        .AddMem1{
+          height: 75%;
+          z-index: 9999999;
+          width: 90%;
+          .MemTxt{
+            color: #000;
+            font-family: "AeonikTrial";
+            font-size: 1.3125rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+
+          }
+          .leflex{
+            padding-top: 2%;
+            display: flex;
+            gap: 5%;
+            .addBuble{
+              cursor: pointer;
+              width: 2.125rem;
+              height: 2.125rem;
+
+            }
+            .memberContainer {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 20px;
+                .memberBubble {
+                  width: 2.125rem;
+                  height: 2.125rem;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  border-radius: 50%;
+                  color: white;
+                  font-size: 18px;
+                  margin-bottom: 5px;
+                  .spanLetter{
+                    height: 55%;
+                    font-size: 1rem;
+                  }
+                }      
+                .imageDiv{
+
+                  .profileImage{
+                    width: 36px;
+                    height: 36px;                    
+                    border-radius: 5px;
+                    border: 1px solid rgba(0, 0, 0, 0.212);
+                            }
+
+                }      
+            }
+            .deleteButt{
+              border: 1px solid rgba(5, 5, 5, 0.115);
+              background-color: rgba(240, 255, 255, 0.189);
+            }
+
+          }
+        
+        }
+
+
+
+      }
+
+    }
+  }
+
+}
+.ManageTeammateModal::-webkit-scrollbar {
+  width: 2px; /* Set the width of the scrollbar */
+}
+
+/* You can also style other scrollbar properties if needed */
+.ManageTeammateModal::-webkit-scrollbar-thumb {
+  background-color: #ccc; /* Set the color of the scrollbar thumb */
+  border-radius: 10px; /* Set the border radius of the scrollbar thumb */
+}
+
+/* This hides the scrollbar track */
+.ManageTeammateModal::-webkit-scrollbar-track {
+  background-color: transparent; /* Set the background color of the scrollbar track */
+}
+.DelTeammate{
+  position: relative;
+  top: -60%;
+  right: -25%;
+  cursor: pointer;
+  visibility: hidden;
+}
+.memberContainer:hover .DelTeammate {
+  visibility: visible; // Show the delete icon on hover
+}
+.NameMember{
+  color: #000;
+  font-family: "AeonikTRIAL";
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+}

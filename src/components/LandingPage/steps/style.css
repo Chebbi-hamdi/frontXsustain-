@@ -1,0 +1,350 @@
+.LeFlexSteps {
+  display: flex;
+  justify-items: center;
+  width: 100%;
+  /* padding-left: 8%; */
+  height: 50vh;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5%;
+}
+.card1 {
+  height: 100%;
+  width: 44%;
+}
+.card2 {
+  height: 50%;
+  width: 100%;
+
+}
+.card3 {
+  height: 50%;
+  width: 100%;
+  }
+.tl {
+  color: #000;
+
+  font-family: "GrifterBold", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 233px;
+  height: 137px;
+}
+.positionInside {
+  padding-top: 12% !;
+  padding-left: 43px !important;
+}
+.positionInside2 {
+  padding-left: 6% !important;
+}
+.pl-43 {
+  position: relative;
+  left: 4%;
+  bottom: 10%;
+}
+.pl-48 {
+  position: relative;
+  left: 4%;
+  bottom: 10%;
+}
+.pb-45 {
+  position: relative;
+  left: 12%;
+  bottom: -27%;
+
+
+  
+}
+.pb-455 {
+  position: absolute;
+  left: 5%;
+  bottom: 8%;
+
+
+  
+}
+
+.grp2Position {
+position: relative;
+right: -50%;
+bottom: 0;
+opacity: 1.1;}
+.grp3Position {
+  position: absolute;
+  z-index: 99999999;
+  right: 5%;
+  top: 20%;
+}
+.grp4Position {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  display: block; /* Make the image a block element */  border: 15px; /* Example border with 2px width and black color */
+  right: 0;
+  max-width: 35vh;
+}
+.tm {
+  color: #000;
+  font-family: "GrifterBold", sans-serif;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  /* line-height: normal; */
+  width: 300px;
+  height: 22px;
+  padding-top: 6%;}
+.centerGrip7{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.grid1-7 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.item1 {
+}
+.item2 {
+  grid-area: 1/2/2/3;
+}
+.item3 {
+
+  grid-area: 1/4/2/5;
+}
+.item4 {
+  grid-area: 1/3/2/4;
+}
+.item5 {
+  grid-area: 1/5/2/6;
+}
+.item6 {
+  grid-area: 1/6/2/7;
+}
+.item7 {
+  grid-area: 1/7/2/8;
+}
+.pandaText {
+  color: #fff;
+  font-family: 'GRIFTER';
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.customTextStyle {
+  color: #fff;
+  font-family: "GrifterBold", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+@media only screen and (max-width: 768px) {
+  .hideInPhone {
+    display: none;
+  }
+  .grid1-2 {
+    display: grid;
+    gap: 0;
+    margin-top: -30% !important;
+    justify-items: center;
+    justify-content: center !important;
+    margin: 0px 0px 0px 0px !important;
+    padding: 0px 0px 0px 0px !important;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: 1fr;
+    justify-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .tl {
+    font-family: "GrifterBold", sans-serif;
+    font-size: 6.5vw!important;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    height: 50%!important;
+  }
+  .aaaa{
+    padding-top: -5% !important;
+  }
+  .pt-31 {
+    padding-top: 0%;
+    margin-top: -69px;
+  }
+  .pt-311 {
+    padding-top: 0%;
+    margin-top: -69px;
+  }
+  .phoneVersionArrow{
+    width: 15%;
+    height: 15%;
+    position: absolute;
+    left: 5%;
+    bottom: 10%;
+    
+  }
+  .paddingTopPhone{
+  }
+  .phoneVersionArrow2{
+    width: 36.484px;
+    height: 21.484px;
+
+    
+    padding-left: 20px !important;
+  }
+  .positionCameraPhone{
+   }
+  .padding-Top{
+    padding-top: 2%;
+  }
+  .text2 {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px; /* 200% */
+    position: absolute;
+    bottom: 50%;
+  }
+  .card1 {
+    position: relative;
+    left: 0px !important;
+    height: 40%;
+    width: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+  width: 100%;  }
+
+  .card2 {
+    position: relative;
+    width: 80%;
+    height: 40% !important;
+    padding: 0 !important;
+
+  }
+  .card3 {
+    position: relative;
+    width: 80%;
+    padding: 0 !important;
+    height: 46% !important;
+
+
+  }
+
+  .Crad2nd3Wraped{
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1%;
+    height: 60%;
+  }
+  .phoneVersionCard2 {
+    transform: translate(0px, 110px);
+    position: relative;
+    font-size: 2.5vw;
+    font-family:'AeonikTRIAL' ;
+    color: #00000072;
+
+  }
+  .resTxtSch{
+    height: 6vh;
+    font-size: 4.5vw !important;
+    
+
+        }
+  .positionInside {
+    width: 100% !important;
+  }
+  .phoneCamVersion {
+  }
+
+  .positionInside2 {
+    font-size: min(15vw,22px);
+  }
+  .arrowImage {
+    transform: translate(0px, 50px) !important;
+    left: 5%;
+    position: relative;
+  }
+  .panda,
+  .grp3Position {
+    right: 18px;
+    top: 59%;
+    width: 15%;
+  }
+  .phoneVersion {
+    transform: translate(-18%, 50px);
+  }
+  .testtt{
+    font-weight: 4.5vw!important;
+    color: #00000080;
+    font-family:'AeonikTRIAL' ;
+
+  }
+  .grp2Position {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    border-radius: 12px;
+    align-self: center;
+    height: 63%;
+  }
+
+  .grp4Position {
+    width: 50%; /* Reduce image width */
+  }
+
+
+  .item1 {
+    padding-left: 0; /* Remove padding for the first item */
+  }
+
+  .item1logo {
+    width: auto; /* Allow the logo to adjust its width */
+    text-align: center; /* Center the logo text */
+  }
+  .LeFlexSteps{
+    display: inline-block;
+    height: 80vh;
+  }
+  
+}
+.grp3Position {
+  position: absolute;
+}
+
+.panda-svg {
+  transition: transform 1s ease-in-out;
+}
+
+.grp4Position {
+  position: absolute;
+  bottom: 0;
+  right: 0;}
+.grppandaPosition{
+  right: 0;
+  bottom:50%;
+  position: absolute;
+  z-index: 99999;
+}
+.text21{
+  padding-top: 10%;
+  color: #0000008a;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px; /* 200% */
+  font-family: 'AeonikTRIAL';
+}

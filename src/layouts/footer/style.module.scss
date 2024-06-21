@@ -1,0 +1,36 @@
+.last0 {
+
+  width: 95%;
+  display: flex;
+  justify-content: flex-end;
+
+
+  .last1 {
+    display: flex;
+    gap: 0.1em!important;
+
+    .txt{
+      color: #000;
+
+      font-family: Helvetica;
+      font-size: 0.75rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%; /* 1.125rem */
+
+    }
+    .Span {
+      color: #2468FF;
+      font-family: Helvetica;
+      font-size: 0.75rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 150%;
+      
+    }
+
+    .imgSmall {
+      width: 3.5em;
+      height: 3em;          }
+  }
+}

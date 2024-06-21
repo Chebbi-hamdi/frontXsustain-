@@ -1,0 +1,23 @@
+.MainCardBodyDash{
+
+
+    .FlexMain{
+        flex-direction: column;
+
+        .Tasks{
+            justify-content: center;
+            gap: 1em!important;
+
+            .ProfileInfoCard{
+
+            }
+
+        }
+        .Others{
+            gap:2% !important;
+            justify-content: center !important;
+            align-items: center!important;
+        }
+    }
+
+}

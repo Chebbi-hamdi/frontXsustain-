@@ -1,0 +1,139 @@
+.advantages{
+    background-image: url('../../../assets/advantages-background.svg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 50px;
+    margin-top: 50px;
+    z-index: 1;
+}
+
+.advantages .clock-circle{
+    position: absolute;
+    top: -50px;
+    left: 30px;
+}
+.advantages .adv-content{
+    width: 70%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.adv-content h1 span{
+    color: #2468ff;
+}
+
+
+
+.adv-content .checks{
+    display: flex;
+    gap: 20px;
+    padding-bottom:10%;
+    justify-content: center;
+    width: 100%;
+}
+
+.adv-content .checks .checked-item{
+    display: flex;
+    gap: min(1vw,30px);
+    
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: linear-gradient(to right, rgba(234, 234, 234, 1) 0%, rgba(234, 234, 234, 0.6) 100%);
+    width: 100%;
+    text-align: left;
+    height: 5vh;
+    min-height: 50px;
+    max-height: 70px;
+}
+
+.adv-content .checks .checked-item p{
+    margin: 0;
+    font-weight: 500;
+}
+.checked-item svg{
+    width: 30px;
+    height: 80%;
+}
+@media only screen and (max-width: 768px) {
+    .advantages .adv-content{
+        width: 80% !important;
+    }
+    .phoneVersion{
+        text-align: center;
+        width: 100% !important;
+        font-size: 20px !important;
+        font-weight: 700 !important;
+      }
+      .adv-content .checks{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-direction: column;
+        justify-items: center;
+        width: 85% !important;
+    }
+    .advantages{
+    background-image: url('../../../assets/advantages-background.svg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    padding: 0px;
+    margin-top: 100px;
+    z-index: 1;
+}
+.BigParg{
+    text-align: center;
+    padding-top: 10%;
+    font-family: "GrifterBold", sans-serif; 
+    width: 100% !important;
+    font-weight: 700 !important;
+}
+
+.advantages .clock-circle {
+    top: -50px;
+    width: 80px; /* Change this value to adjust the width */
+    height: 80px
+}
+.adv-content .checks {
+    display: flex;
+    gap: 20px;
+    width: 90%;
+    padding-top: 5%;
+    padding-bottom: 22%;
+}
+.textCHeckIcon{
+    font-size: max(3vw,17px)!important;
+    width: 32vw;
+}
+    
+}
+.BigPargp{
+    font-size: max(2.7vw,20px)!important;
+    font-weight: 700;
+    padding-bottom: 0!important;
+    margin-bottom: 0!important;
+
+}
+.spann{
+    color: #2468ff;
+    font-size: max(2.7vw,20px)!important;
+    font-weight: 700;
+
+}
+.smallParag{
+    font-size: max(1.1vw,18px)!important;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.603);
+
+}
+.textCHeckIcon{
+    font-size: min(1vw,19px);
+}

@@ -1,0 +1,271 @@
+.prices-container{
+    display: flex;
+    width: 80%;
+    gap: 10px;
+    margin-top: 50px;
+    position: relative;
+
+}
+.prices{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.prices .price-div{
+    background: #F9F9F9;
+    padding: 30px 70px;
+    border-radius: 10px;
+    position: relative;
+    width: 100%;
+}
+.price-div h1,.price-div h2{
+    font-family: "GrifterBold", sans-serif; 
+    position: relative;
+}
+.starGroup {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+}
+
+.price-div p {
+    font-size: 12px;
+    color: #757575;
+}
+.funky-panda{
+    position: absolute;
+    z-index: 0;
+    top: -140px;
+}
+.customButton{
+    border: none;
+    font-family: "AeonikRegular", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 19px !important;
+
+    
+}
+.packText{
+    color: #000;
+
+    font-family: "AeonikRegular", sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+.positionSvg-left {
+    position: relative;
+    padding-left: 65%;
+    justify-content: left !important; /* Align items to the left */
+}
+.pricedivfirst{
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .pricedivfirst{
+        height: 18vh;
+    }
+    .soustitrepar{
+        font-size: min(5vw,18px)!important;
+        max-width: 200px;
+    }
+    .price-divflex{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        width: 100%;
+    }
+    .prices-container {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .funky-panda{
+        position: absolute;
+        z-index: 0;
+        top: -140px;
+        right: 2%;
+    }
+   
+    .phoneJustifyContent {
+        display: flex;
+        flex-direction: column;
+        align-items: start; /* Center items vertically */
+        justify-content: center; /* Center items horizontally */
+        text-align: center; /* Center text within the div */
+        margin-top: 20px; /* Adjust as needed */
+    }
+    .justifyContentCenter{
+        width: 100%;
+        padding-top: 5%;
+        display: flex;
+        justify-content: center;
+    }
+    .positionSvg-left {
+        position: relative;
+        padding: 0;
+        margin: 0;
+    }
+    .starGroup {
+        position: absolute;
+        top: -20px;
+        left: -9px;
+    }
+    .price-div{
+        width: 80%!important;
+        background-color: #F9F9F9;
+    }
+    .customButton{
+        border: none;
+        width: 100% !important;
+        font-family: "AeonikRegular", sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        margin: 19px !important;
+        line-height: normal;
+        box-shadow: 5px 5px 0px -2px rgba(0,0,0,1);
+-webkit-box-shadow: 5px 5px 0px -2px rgba(0,0,0,1);
+-moz-box-shadow: 5px 5px 0px -2px rgba(0,0,0,1);
+    }
+    .h2-phoneSize{
+        font-size: 29px !important;
+    }
+}
+
+.price-div0{
+    width: 25%;
+}
+.titlePrice3{
+    display: flex;
+    align-items: center;
+    height: 9%;
+    font-size: min(3vw,32px);    
+    font-weight: 700;
+    font-family: "GrifterBold", sans-serif; 
+
+  }
+  .priceDivyess{
+    padding-top: 1% !important;
+    width: 50%;
+    background-color:#0b0808!important;
+    height: 51vh;
+  }
+  .mainPackFlex{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    .mainPackFlexCenter{
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        gap: 1%;
+
+    .DivCustomPack{
+        height: 15%;
+        padding-top: 4%;
+        .CustomPack{
+            font-size: min(15vw,25px);
+            font-weight: 700;
+            font-family: 'GRIFTER';
+
+
+        }
+        .CustomPP{
+            font-size: min(15vw,18px);
+            font-weight: 500;
+            font-family: 'AeonikTRIAL';
+            color: #757575a2;
+        }
+    }
+    .DivCustomPrice{
+        padding-bottom: 1%;
+        height: 10%;
+
+        .CustomPrice{
+            font-size: min(15vw,25px);
+            font-weight: 700;
+            font-family: 'GRIFTER';
+
+
+        }
+        .CustomPriceP{
+            font-size: min(15vw,18px);
+            font-weight: 500;
+            font-family: 'AeonikTRIAL';
+            color: #757575a2;
+
+        }
+    }
+    .FlexButtonContact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 10%;
+        .ButtonContact{
+            width: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #2468FF;
+            height: 3.5vh;
+            border-radius: 6px;
+            gap: 2%;
+            .PBtnContact{
+                color: #F9F9F9;
+                font-family: 'GRIFTER';
+
+            }
+        }
+    }
+    .centerSatisfaction{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 1%;
+        height: 5%;
+        .Satisfaction{
+            font-size: min(10vw,17px);
+            font-family: 'AeonikTRIAL';
+            color: #000000af;
+        }
+    }
+    .FlexPropsss{
+        display: flex;
+        align-items: center;width: 98%;
+        height: 45%;
+        margin-top: 2%;
+        gap: 6%;
+        padding-top: 2%;
+        border-top: 0.5px solid #757575;
+        .FlexProps{
+            display: flex;
+            gap: 2em;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            height: 4.5vh;
+            align-items: center;
+            .PropsP{
+                font-size: min(10vw,20px);
+                color: #000000b1;
+            }
+        }
+       
+    }
+    }
+  }
+
+

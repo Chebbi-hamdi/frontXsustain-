@@ -1,0 +1,140 @@
+
+// .mainBodySupp{
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     .TitleBody{
+
+//         .allsections{
+//             font-family:"AeonikTRIAL"!important;
+//             font-size: 22px;
+//             font-weight: bold!important;
+//         }
+
+//     }
+//     .CardsContainer{
+
+//         .CardsContainer1{
+//             display: flex;
+//             gap: 2em;
+    
+//         }
+//         .CardsContainer2{
+//             display: flex;
+//             gap: 1.9em;
+    
+//         }
+
+
+
+//     }
+//     .HealpSec{
+//         display: flex;
+//         align-items: center;
+//         gap: 1em;
+//         justify-content: flex-start;
+//         .Title{
+//             font-size: 1.1vw;
+//             font-weight: 550;
+//             font-family:"AeonikTRIAL"!important;
+
+
+//         }
+//         .btn{
+//             height: 100%!important;
+//             border:0.2em solid black!important;
+//             background-color:#2468FF!important;
+//             color: white;
+//             font-weight: normal!important;
+//             font-family: "AeonikTRIAL";
+//             font-size: 0.7vw!important;
+//             border-radius: 0.5em;
+//             &:hover {
+//                 box-shadow: 3px 3px 0 rgba(0, 0, 0, 1);
+//             }
+//         }
+
+//     }
+// }
+
+// .cardbosCustom{
+//     width: 90%!important;
+// }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .TitleBody {
+    text-align: center;
+    margin-bottom: 20px;
+    .allsections {
+      font-family: "AeonikTRIAL", sans-serif !important;
+      font-size: 22px;
+      font-weight: bold !important;
+      color: #333; // Assuming a need for a readable text color
+    }
+  }
+  
+  .FormContainer {
+    width: 100%;
+    max-width: 500px; /* Adjust based on preference */
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap; // To ensure responsiveness
+    gap: 2em; // Unified gap for simplicity and consistency
+  }
+  
+  .Form {
+    display: flex;
+    flex-direction: column;
+    gap: 2em; // Unified gap for simplicity
+    width: 100%;
+    align-items: center;
+    .input,
+    .textarea {
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      background: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      width: 80%
+    }
+    .textarea {
+      height: 100px;
+      resize: vertical;
+    }
+  }
+  
+  .btn {
+    width: 30%;
+    height: auto !important; // Changed to auto for better flexibility
+    padding: 10px 20px; // Assuming padding needed for button size
+    border: 0.2em solid black !important;
+    background-color: #2468FF !important;
+    color: white;
+    font-weight: normal !important;
+    font-family: "AeonikTRIAL", sans-serif;
+    font-size: 0.7vw !important;
+    border-radius: 0.5em;
+    cursor: pointer; // To indicate it's clickable
+    transition: box-shadow 0.3s ease; // Smooth transition for hover effect
+    margin: 10px 0;
+    &:hover {
+      box-shadow: 3px 3px 0 rgba(0, 0, 0, 1);
+    }
+  }
+  
+  .cardbosCustom {
+    width: 90% !important;
+    margin: auto; // Assuming center alignment is needed
+  }

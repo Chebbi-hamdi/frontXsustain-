@@ -1,0 +1,67 @@
+.MainCard{
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 16%;
+    height: 12em;
+    overflow: hidden;
+    // display: flex;
+    // flex-direction: column;
+    // width: 13em;
+    // gap: 1em;
+    cursor: pointer;
+    // .flex{
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+        .card_box{
+            height: 100%;
+            width: 100%;
+            // gap: 8px;
+            // height: 70%;
+            .imgCont{
+                height: 80%;
+                width: 100%;
+                // display: flex;
+                // align-items: center;
+                // justify-content: flex-start;
+                .img{
+                    // height: 10em;
+                    width: 100% !important;
+                    height: 100% !important;
+                    border-bottom: 1px solid black;
+                    overflow: hidden;
+            }
+        }
+    
+        }
+        .TxtCont{
+            // display: flex;
+            height: 20%;
+            width: 100%;
+            // justify-content: center;
+            .flex1{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+    
+
+                .Title{
+                    font-family: "AeonikTRIAL"!important;
+                    font-weight: 550;
+                    font-size: 1vw;
+                    
+                }
+            }
+            
+            
+            
+            
+            
+            
+            
+        }
+        
+        
+        // }
+        
+    }

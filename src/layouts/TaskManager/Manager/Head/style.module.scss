@@ -1,0 +1,49 @@
+.MainHT{
+    height: 100%;
+    .LeFlex{
+        display: flex;
+
+        .Title{
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-end;
+            width: 50%;
+            .flexTitle{
+                display: flex;
+
+                gap: 1%!important;
+                width: 100%;
+
+
+            }
+
+            .Icon{
+                height: 90%;
+
+            }
+            .TitileTxt{
+                margin: 0!important;
+                padding: 0!important;
+                font-size: "AeonikTRIAL"!important;
+                font-size: 1.4em;
+                font-weight: 600  !important;
+            }
+
+
+        }
+        .SearchBar{
+            width: 60%!important;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+
+
+            .SearchBar0{
+                width: 15em!important;
+            }
+        }
+
+
+
+    }
+}

@@ -1,0 +1,17 @@
+.MainCardD{
+
+    .LeFlex{
+        flex-direction: column;
+        gap: 3% !important;
+        .Header{
+
+
+            .Draw{
+                position: fixed;
+                right: -5%;
+                top: 8.5%;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,64 @@
+.centerGrip7,
+.centerGrip7_FooterReached,
+.ButtonFlex,
+.ButtonFlex_FooterReached {
+}
+
+.centerGrip7 {
+  position: fixed;
+  z-index: 9999999;
+  top: 90%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}
+
+.centerGrip7_FooterReached {
+  position: sticky; /* Change to fixed */
+  z-index: 9999999;
+  left: 20%;
+  top: 90%;
+  width: 100%;
+}
+
+.ButtonFlex_FooterReached {
+  position: fixed; /* Change to fixed */
+  z-index: 9999999;
+  top: 24.5%;
+  left: 97.1%;
+
+}
+
+.ButtonFlex {
+  width: 15.5%;
+  z-index: 99999;
+  top: 24.5%;
+  right: -12.6%;
+  position: fixed;
+}
+
+.heading {
+  font-size: 0rem;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  @media (max-width: 720px) {
+    font-size: 2rem;
+  }
+}
+
+.item1logo {
+    height: 20%;
+  color: #ffffff;
+  font-family: "GrifterBold", sans-serif;
+  font-size: min(1.2vw,20px);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 0!important;
+  z-index: 999999999999999999;
+  
+}

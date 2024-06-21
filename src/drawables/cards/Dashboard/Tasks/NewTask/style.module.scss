@@ -1,0 +1,148 @@
+.NewTask {
+    border: 1.5px solid rgb(0, 0, 0);
+    border-radius: 9px;
+    background-color: #2468ff;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+  
+    .NewTaskInside {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 3em;
+  
+      .NewTaskTxt {
+        display: flex;
+        color: white;
+        color: #fff;
+        font-size: 1vw;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+      .PlusImg {
+        height: 70% !important;
+      }
+    }
+  }
+  .ModalContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: fixed; */
+    top: 0 !important;
+    left: 0 !important;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  .Modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 48%;    
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid #2468ff;
+    .ModalHeader {
+      display: flex;
+      justify-content: space-between;
+      width: 78%;
+      height: 68%;
+    }
+    .ModalContent {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      .centerModalContent{
+        height: 80%;
+        width: 95%;
+        .titleCenterFlex{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .titleCenter{
+            width: 52%;
+            height: 70%;            
+  
+            .ModalTitle {
+              font-family: "AeonikTrial";
+              font-size: 1.5vw;
+              font-weight: 700;
+              margin-bottom: 0.5em;     
+              .spany {
+                color: #2468ff;
+              }
+            }
+            .ModalLittleTitle {
+              padding-left: 20%; 
+              font-family: 'AeonikTrial';
+              font-size: 1.1vw;
+              font-weight: 500;
+              margin: 0;
+              // margin-bottom: 1em;
+            }
+          }
+        }
+        .ModalInput {
+          width: 92%;
+          height: 2em;
+          border: 1px solid #000;
+          border-radius: 5px;
+          margin-bottom: 1em;
+          padding-left: 0.5em;
+        }
+        .ModalBtns {
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+          justify-content: center;
+          gap: 0%;      
+          .ModalBtn {
+            width: 45%;
+            height: 12vh;
+            border: 1px solid #000;
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            font-size: 1vw;
+            font-weight: 500;
+            color: #000;
+            font-family: 'AeonikTrial';
+            font-size: medium;
+          }
+          .ModalBtn:hover {
+            background-color: #2468ff;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+  .smallModalll{
+    height: 40%;
+    width: 70%;
+  }
+  .ModalBtns1 {
+    width: 92%;
+    height: 60%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+
+  }
+.Back{
+  position: relative;
+  left: -35%;
+}

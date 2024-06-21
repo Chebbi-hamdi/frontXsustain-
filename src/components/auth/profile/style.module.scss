@@ -1,0 +1,27 @@
+.main{
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 93vh;
+  gap: 5% !important;
+  padding-top: 5% !important;    
+  .draw{
+      height: 96px;
+      width: 151.93px;
+
+      position: fixed;
+      right: -3%;
+      top: 6%;      
+      z-index: 1;
+    }
+    .footer{
+      width: 100%;
+    }
+    
+
+               
+}
+           
+
+

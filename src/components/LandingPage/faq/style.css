@@ -1,0 +1,94 @@
+:root {
+  --main-color: #000;
+  --lower-main-color: #8ec2407a;
+  --secondary-color: #000;
+  --pro-green: #2b5719;
+  --primary: #000;
+  --white: hsl(0, 0%, 100%);
+  --gray-text: #6f788b;
+  --border: #dde3ea;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  width: 100vw;
+  align-items: center;
+  margin: 100px auto;
+  font-family: "Poppins", sans-serif;
+  min-height: 85vh;
+}
+.wrapper h1 {
+  color: var(--secondary-color);
+}
+.accordion {
+  width: 65%;
+}
+.Qestion{
+  font-size: max(1.3vw,20px);
+  font-weight: 700;
+}
+.item {
+  border-radius: 5px;
+  background: white;
+  border-bottom: 1px solid black;
+  z-index: 99;
+  margin-bottom: 5px;
+}
+.quest-title {
+  padding: 15px 20px;
+
+  color: var(--secondary-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+.quest-title h2 {
+  padding: 20px auto;
+  font-weight: 500;
+}
+.content p {
+  font-size: 17px;
+  padding: 15px 20px;
+}
+
+.content {
+  color: var(--secondary-color);
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+
+.content.show {
+  height: auto;
+  max-height: 9999px;
+  transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    height: fit-content;
+    width: 100%;
+  }
+}
+.TitleFaq {
+  color: #000;
+  text-align: center;
+  font-family: "GrifterBold", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 55px;
+}
+.titleBleu {
+  color: #2468ff;
+  font-family: "GrifterBold", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 55px;
+}

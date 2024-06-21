@@ -1,0 +1,63 @@
+.MainReview{
+    border: 1.5px solid black;
+    border-radius: 9px;
+    &:hover {
+        // Define styles for hover state
+        transition-duration: 1s; /* Durée de la transition */
+        cursor: pointer;
+        .fullHeight{
+            .fullHeight1{
+                .Txt{
+                    width: 40%!important;
+                    transition-duration: 1s; /* Durée de la transition */
+
+
+                }
+
+            }
+        }
+        
+    }
+
+    .fullHeight{
+        height: 100%;
+        .fullHeight1{
+            
+            .Txt{
+                display: flex;
+                flex-direction: column;
+                gap: 9px;
+                width: 50%!important;
+
+            
+                
+        
+                .Hint{
+                    font-family: "AeonikTRIAL"!important;
+                    color: #737373;
+
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                            
+                }
+                .NbrTasks{
+                    font-family: "AeonikTRIAL"!important;
+                    font-weight: 700!important;
+                    color: #2468FF
+        
+        
+                }
+            }
+            .Image{
+                height: 80%;
+            }
+            
+
+
+            
+        }
+        
+    }
+    }

@@ -1,0 +1,27 @@
+.Custom{
+
+    .CustomImg{
+        height: 90%!important;
+    }
+    &:hover {
+        // Define styles for hover state
+        background-color:blue;
+        transition-duration: 0.6s; /* Durée de la transition */
+        cursor: pointer;
+        .CustomImg{       
+            
+            padding-bottom: 0!important;
+            margin-top: 2em!important;
+            transition-duration: 0.6s; /* Durée de la transition */
+            height: 90%!important;
+        }
+        .CustomTxt{
+            color: white!important;
+            transition-duration: 0.6s; /* Durée de la transition */
+
+        }
+
+     
+    }
+
+}

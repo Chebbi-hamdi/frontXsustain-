@@ -1,0 +1,87 @@
+.Main{
+    border-bottom: 1px solid #000;
+    height: 33%;
+    width: 100%;
+    .flexOfCenter{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+
+        .imageDiv{
+            width: 19%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .imageDivCenter{
+                height: 50%;
+                width: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .img{
+                    height: 75%;
+                    width: 75%;
+                }
+            }
+
+        }
+        .explicationDiv{
+            width: 85%;
+            height: 70%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            .flexStart{
+                height: 80%;
+                width: 95%;
+
+                .TitleDiv {
+                    width: 100%;
+                    height: 40%;
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 1%;
+
+            
+                    .Title {
+                        color: #000;
+                        font-family: "AeonikTRIAL";
+                        font-weight: 700;
+
+                        font-size: 0.9vw; /* Set font size to 5% of the viewport width */
+                        font-size: min(0.9vw, 20px); /* Adjust the maximum value as per your requirement */
+                    }
+                  }
+            
+                  .txtDiv {
+                    height: 40%;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    
+            
+                    .txt {
+                      font-size: 0.85vw; /* Set font size to 2% of the viewport width */
+                      width: 100%; /* Make text take up 100% of the width of its parent div */
+                      color: #737373;
+                      font-family: "AeonikTRIAL";
+                      font-size: min(0.85vw, 16px); /* Adjust the maximum value as per your requirement */
+                      margin-top: 2%;
+
+                      
+                    }
+            
+                }
+            }
+            
+
+            
+        }
+
+    }
+
+}

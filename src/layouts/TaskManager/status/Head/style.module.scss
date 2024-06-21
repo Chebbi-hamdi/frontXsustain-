@@ -1,0 +1,83 @@
+.MainHT{
+    height: 100%;
+    width: 100%;
+    .LeFlex{
+        display: flex;
+        align-items: flex-end;
+        width: 100%;
+
+        .Title{
+
+            width: 55%;
+            .flexTitle{
+                
+                gap: 1%!important;
+                .divArrow{
+                    cursor: pointer;
+                    height: 100%;
+
+                    .backArrow{
+                    }
+
+                }
+
+
+            }
+
+            .TitileTxt{
+                margin: 0!important;
+                padding: 0!important;
+                font-size: "AeonikTRIAL"!important;
+                font-size: 1.4em;
+                font-weight: 600  !important;
+            }
+
+
+        }
+        .TeamMates{
+            width: 43%!important;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            .InviteFlex{
+                padding-right: 5%;
+                .InviteDiv{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 1em!important;
+                    .txtInvite{
+                        color: #2468FF;
+
+                        font-family: "AeonikTRIAL";
+                        font-size: 1rem;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        text-transform: capitalize;
+                    }
+                    .addTeammate{
+                        height: 1em;
+                    }
+                }
+            }
+            .ImgsTeamDiv{
+                width: 5%!important;
+                margin-left: -1%;
+                z-index: 999999;
+                .ImgsTeam{
+                    width: 100%!important;
+                    width: 1.3rem;
+                    height: 1.3rem;
+                    border-radius: 1.3rem !important;
+    
+                }
+            }
+
+           
+        }
+
+
+
+    }
+}

@@ -1,0 +1,187 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    .Center{
+        width: 95%;
+
+
+
+        .Head{
+            display: flex;
+            height: 95%;
+            justify-content: center;
+            align-items: center;
+            .StatusCard{
+                cursor: pointer;
+                height: 100%!important;
+            }
+            .MoreCont{
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                height: 3em;
+                width: 50%;
+                .StatusCardDiv{
+                    height: 65%;
+                    width: 19%;
+                    cursor:pointer ;
+                    .more{
+                        cursor: pointer;
+                        z-index: 999999;
+                        opacity: 1;
+
+                        
+                    }
+
+                }
+              
+            }
+        
+        }
+        .Body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+
+            .Center{
+                
+                width: 95%;
+                .Title{
+                    color: #000;
+                    font-family: "AeonikTRIAL";
+                    font-size: 1.125rem;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    padding-bottom: 0.3em;
+                }
+                .Desc{
+                    color: #8A8A8A;
+                    font-family: "AeonikTRIAL";
+                    font-size: 0.75rem;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    padding-bottom: 0;
+                    .textDesc{
+                        max-height: 3.6em;
+                        overflow: hidden;
+                        margin-bottom: 0.5em;
+                    }
+                    .ImgDesc{
+                        max-width: 100%;  // La largeur maximale de l'image est égale à 100% de la largeur du conteneur parent
+                        height: auto;     // Laissez la hauteur ajustée automatiquement pour maintenir les proportions
+                        display: block;   // Assurez-vous que l'image se comporte comme un élément de bloc pour éviter tout espace supplémentaire
+                        margin: 0 auto;   // Pour centrer l'image horizontalement dans son conteneur
+                        max-height: 10rem;
+                    }
+
+
+                }
+            }
+
+        }
+        .Footer{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .Center{
+                height: 100%;
+                width: 95%;
+                display: flex;
+                gap: 10%;
+                .teamImgs{
+                    width: 23%;
+                    height: 90%;
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;;
+                    .ImgsTeamDiv{
+                        margin-left: -1%;
+                        width: 1rem;
+                        height: 1rem;
+                        border-radius: 1rem!important;
+                        overflow: hidden;
+                        .ImgsTeam{
+                            height: 1.5rem;
+                        }
+                        .memberBubble {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            border-radius: 50%;
+                            color: white;
+                            /* font-size: 18px; */
+                            height: 100%;
+                            .spanLetter{
+                                width: 49%;
+                                height: -41%;
+                                font-size: 14px;
+                                height: 18px;
+                                                        }
+                          }                                        
+
+
+                    }
+                }
+                .CommentDiv{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 0.2em;
+                    height: 100%;
+                    .commentImg{
+
+                    }
+                    .commenttxt{
+                        color: #8F8F8F;
+                        
+                        font-family: 'AeonikTrial';
+                        font-size: 0.75rem;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+
+                    }
+                }
+                .FileDiv{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 0.2em;
+                    height: 100%;
+                    .FileImg{
+
+                    }
+                    .Filetxt{
+                        color: #8F8F8F;
+
+                        font-family: 'AeonikTrial';
+                        font-size: 0.75rem;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+
+                    }
+                }
+            }
+        }
+    }
+}
+.comment{
+    border: 1px solid black;
+    border-radius: 7px;
+    margin: 2px;
+}
+.blueBackground{    background-color: rgb(225, 221, 221)!important; // Your overlay color
+opacity: 1;
+
+
+
+
+}

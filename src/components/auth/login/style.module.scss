@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Grifter:wght@400;700&display=swap");
+
+$font-grifter: "Grifter", sans-serif;
+$font-aeonik: "Aeonik", sans-serif;
+$font-aeonik-trial: "Aeonik Trial", sans-serif;
+$color-white: #ffffff;
+$color-black: #000000;
+$color-mediumslateblue: #7b68ee;
+$padding-xl: 20px;
+$padding-12xs: 10px;
+$padding-xl: 20px;
+$padding-10xs: 5px;
+$gap-xl: 20px;
+$br-16xl: 16px;
+$br-8xs: 8px;
+
+.desktop7 {
+  width: 75%;
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: $gap-xl;
+  letter-spacing: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; // Utilise la hauteur totale de l'écran
+  .googleLogin{
+    width: 50%;
+    padding: 20px 0 0;
+
+  .googleLogin,
+  .signinText {
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+    }  
+  .component41Parent,
+  .googleLogin,
+  .signinText {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .signinText {
+    margin: 0;
+    align-self: stretch;
+    padding: 0 0 0 0;
+    gap: 27px 0;
+    
+    
+    .component41Parent {
+      align-self: stretch;
+      align-items: center;
+      gap: 29px ;
+      width: 100%;
+      .component411 {
+        cursor: pointer;
+        width: 100%;
+        border: 1px solid white;
+        background-color: Black;
+        align-self: stretch;
+        align-items: center;
+        color: white;
+        height: 65px;
+        border-radius: 7px;
+        
+        .signInFrame1 {
+          align-self: stretch;
+          flex: 1;
+          position: relative;
+          border-radius: $br-8xs;
+          background-color: #c6ff00;
+          opacity: 0;
+        }
+        
+        .signIn,
+        .signInFrame2 {
+          position: absolute;
+          margin: 0 !important;
+        }
+        
+        .signInFrame2 {
+          width: 100%;
+          height: 65px;
+          top: 0;
+          left: 0;
+          border-radius: $br-8xs;
+          background-color: black;
+          border: 1px solid $color-black;
+          box-sizing: border-box;
+          z-index: 1;
+        }
+        
+        
+        
+        
+      }
+    }
+
+    .frameEParent,
+    .frameParent,
+    .usernameEmail {
+      align-self: stretch;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+    .usernameEmail {
+        gap: 17px 0;
+      }
+      .frameEParent,
+      .usernameEmail {
+        gap: 17px 0;
+        max-width: 100%;
+      }
+
+      .frameEChild,
+      .signInTo {
+        position: relative;
+        max-width: 100%;
+        box-sizing: border-box;
+        font-family: 'AeonikTRIAL';
+      }
+
+      .frameEChild {
+        height: 65px;
+        width: 557px;
+        border-radius: $br-8xs;
+        border: 1px solid $color-black;
+        display: none;
+      }
+      .frameEParent {
+        .frameParent {
+          .frameInner,
+          .passwordParent {
+            align-self: stretch;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            border: 1px;
+          }
+
+          .passwordParent {
+            justify-content: space-between;
+            gap: $gap-xl;
+            .forgot,
+            .password {
+              position: relative;
+              text-align: left;
+            }
+
+
+          }
+        }
+        .convertFrameParent {
+          align-self: stretch;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: flex-start;
+          row-gap: 32px;
+          column-gap: 0px;
+          
+          .convertFrame {
+            align-self: stretch;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            padding: 0px 10px 0px 10px;
+            gap: 0 14px;
+            .frameChild {
+              height: 1px;
+              position: relative;
+              overflow: hidden;
+              flex-shrink: 0;
+            }
+
+            .orSignIn {
+              width: 12vw;
+              min-width: none;
+              text-align: center;
+              margin-right: 0px;
+              .orSignInp{
+                font-family: $font-aeonik-trial;
+                color: #2468FF;
+                font-size: max(1.1vw, 15px);
+
+                ;
+  
+              }
+            }
+            .headerWrapper {
+              height: 3px;
+              flex: 1;
+              display: flex;
+              flex-direction: column;
+              align-items: flex-start;
+              justify-content: flex-start;
+              padding: 0 0;
+              box-sizing: border-box;
+              min-width: 132px;
+              .headerIcon {
+                align-self: stretch;
+                height: 1px;
+                position: relative;
+                max-width: 100%;
+                overflow: hidden;
+                flex-shrink: 0;
+              }
+            }
+            .convertFrameInner {
+              height: 3px;
+              flex: 1;
+              display: flex;
+              flex-direction: column;
+            }
+          }
+        }
+        
+      }
+    }
+  }
+}
+.dontHaveAn {
+  color: $color-mediumslateblue;
+  font-size: max(0.9vw, 13px);
+  color: #2468FF;
+
+
+}
+.signUp {
+  color: black;
+  font-size: max(0.9vw, 13px);
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.signInTo {
+  margin-bottom: 2%;
+  width: 455px;
+  font-size: max(1.7vw, 23px);
+  font-weight: 700;
+  font-family: $font-grifter;
+  color: $color-black;
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+  padding-right: $padding-xl;
+  font-family: 'GRIFTER';
+
+}
+
+
+
+.frameE {
+  cursor: pointer;
+  border: 1px solid $color-black;
+  background-color: transparent;
+  border-radius: $br-8xs;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  gap: 0 4px;
+  height: 65px;
+  margin-bottom:3% ;
+
+  &:hover {
+    background-color: rgba(51, 51, 51, 0.09);
+    border: 1px solid #333;
+    box-sizing: border-box;
+  }
+  .googleIcon,
+  .signInWith {
+    position: relative;
+    z-index: 1;
+    border: $color-black;
+  }
+
+  .googleIcon {
+    margin-top: 0;
+    margin-right: 8px;
+    height: 20px;
+    width: 20px;
+  }
+  .signInWith {
+    font-size: max(1vw, 15px);
+    margin-top: 0%;
+    font-family: $font-aeonik-trial;
+    color: #545454;
+    text-align: center;
+  }
+
+}
+
+
+
+.labelInput{
+  font-size: max(1.1vw, 17px)!important;
+
+}

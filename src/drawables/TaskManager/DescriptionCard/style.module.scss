@@ -1,0 +1,442 @@
+.Main{
+    gap: 7%;
+
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .DesPart{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 96%;        
+        .Center{
+            width: 96%;
+            height: 100%;
+            display: flex;
+            padding-bottom: 1%;
+
+        
+            .Left{
+                width: 10%;
+
+                .imGdiv{
+                    width:35% ;
+                    height: 50%;
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    gap:65%;
+                    .description{
+                        color: #000;
+
+                        font-family: "AeonikTRIAL";
+                        font-size: 1.125rem;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+            }
+
+            }
+            .Right{
+                width: 71%;                
+                height: 100%;
+                display: flex;
+                justify-content: flex-end;
+                cursor: pointer;
+                .detailsdiv{
+
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: flex-end;
+                    width: 12%;
+                    min-width: 8em;
+                    height: 2em;                    
+                    cursor: pointer;
+                }
+                    .buttonDetails{
+                      box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.04);
+                      height: 100%;
+                        width: 5.5em;
+                        justify-content: center;
+                      border: #D3D3D3;
+                        border-radius: 0.1875rem;
+                        background: #D3D3D3;                        
+                        display: flex;
+                        align-items: center;
+                        .Detailstxt{
+                            color: #313131;
+                            font-family: "AeonikTRIAL";
+                            font-size: 0.75rem;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;  
+                            height: 70%;
+      
+                     }
+                    }
+
+            }
+            }
+            
+        }
+    }
+      
+    .DesccTxt{
+      width: 84%;        
+      display:flex ;
+        align-items: center;
+        justify-content: flex-start;
+        padding-bottom: 1%;
+        .InputDescdiv{
+          width: 88%;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          .InputDesc{
+            height: 7em;
+            width: 62%;                
+            display: flex;     
+              align-items: flex-start;
+            justify-content: flex-start;   
+            border: 0 ;
+            box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.09);
+          }
+          .buttonSave{
+            margin-bottom: 1%;
+            
+            background-color: var(--ds-background-brand-bold, #0c66e4);
+            box-shadow: none;
+            border: none;
+            color: var(--ds-text-inverse, #ffffff);
+            cursor: pointer;
+            &:hover {
+              background-color: #45a049; // Darker green on hover
+              height: 2em;
+          }
+  
+            &:hover {
+              background-color: #45a049; // Darker green on hover
+              height: 2em;
+          }
+  
+          }
+          .DESC{
+              height: 7em;
+              width: 90%;
+          }
+        }
+    }
+    .CommetnPart{
+        display: flex;
+        justify-content: flex-start;
+        /* align-items: center; */
+        width: 95%;
+        gap: 5%;
+        padding-bottom: 1%;
+        .editorContainer {
+            min-height: 100px;
+            max-height: 40%;
+            max-width: 100%;
+            border: 1px solid #ccc;
+            padding: 10px;
+            width: 88.3%;          }
+
+        .Center{
+            width: 78%;            
+            gap: 0.5%;
+            height: 90%;
+            border-radius: 0.125rem;
+            display: flex;  
+            .Bule{
+                width: 7%;
+                height: 35%;
+                display: flex;
+                justify-content: space-around;
+                .memberBubble {
+                    width: 2.125rem;
+                    height: 2.125rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+                    color: white;
+                    font-size: 24px;
+                    margin-bottom: 5px;
+                    .spanLetter{
+                      height: 55%;
+                      font-size: 1rem;
+                    }
+                }  
+                .imageDiv{
+
+                  .profileImage{
+                    width: 35px;
+                    height: 35px;
+                    border-radius: 5px;
+                    border: 1px solid rgba(0, 0, 0, 0.212);
+                            }
+
+                }      
+            }   
+ 
+            
+        }
+    }
+    .addFile{
+      padding-bottom: 1%;
+
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;      
+      width: 84%!important;
+      height: 30%!important;
+      .imputile{
+        border:1px solid rgb(0, 0, 0)!important;
+      }
+      .input_file {
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: #f0f0f0;
+        color: #333;
+        font-size: 16px;
+        outline: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      .input_file:hover {
+        background-color: #e0e0e0;
+      }
+      
+      .input_file:focus {
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      }
+      
+    }
+    .addFileDiv{
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-start;
+      width: 46.8%;
+      height: 39%;
+      padding-bottom: 1%;
+      .submitButton {
+        width: 137px;
+        color: white;
+        height: 33px;
+        flex-shrink: 0;
+        border-radius: 3px;
+        border: 1px solid #000;
+        background: #2468FF;
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.04);
+    
+    }
+    
+      .submitButtonDisabled {
+
+        cursor: not-allowed;      
+  }
+
+    }
+  
+    
+    .buttonsDesc{
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-start;
+      width: 47%;
+      height: 39%;
+      padding-bottom: 1%;
+
+          .submitComment {
+            width: 137px;
+            height: 33px;
+            flex-shrink: 0;
+            border-radius: 3px;
+            border: 1px solid #000;
+            background: #2468FF;
+            box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.04);
+            color: white;
+          }
+          .disabledSubmitComment {
+            cursor: not-allowed;      
+          
+
+          }
+                     
+        }
+    .CommentSection{
+        width: 98%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .CenterComment{
+    
+          width: 95%;
+          .DisplayComment{
+            display: flex;
+            gap: 2%;
+            padding-top: 2%;
+            .memberBubble {
+              width: 2.125rem;
+              height: 2.125rem;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              border-radius: 50%;
+              color: white;
+              font-size: 18px;              
+              .spanLetter{
+                height: 55%;
+                font-size: 0.9rem;
+              }
+            }
+            .imageDiv{
+
+              .profileImage{
+                width: 35px;
+                height: 35px;
+                border-radius: 5px;
+                border: 1px solid rgba(0, 0, 0, 0.212);
+                        }
+
+            }      
+
+            .commnett{
+              width: 70%;
+              height: 50%;
+              .flexHeadComment{
+                display: flex;
+                align-items: Center;
+                gap: 2%;
+                .Namee{
+                  color: #000;
+                  font-family: "AeonikTrial";
+                  font-size: 15px;
+                  font-style: normal;
+                  font-weight: 500;
+                  line-height: normal;
+                } 
+                .DateComment{
+                  color: #00000094;
+
+                  font-family: "AeonikTRIAL";
+                  font-size: 11px;
+                  font-style: normal;
+                  font-weight: 300;
+                  line-height: normal;
+
+                }
+              }
+              .DateComment{
+                color: #000000c1;
+
+                font-family: "AeonikTRIAL";
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: normal;
+              }
+              .commentTxt{
+
+              }
+    
+              .commentDivedit{
+                width: 100%;
+                .editInputTxt{  
+                  width: 99.5%;
+                  height: 37px;
+
+                }
+                .editInputFile{
+                  height: 2em;
+                  cursor: pointer;
+                  visibility: hidden;
+                }
+                .saveButtonDiv{
+                  width: 99%;                  
+                  display: flex;
+                  justify-content: flex-end;                  
+                  .SaveButton{
+                    color: white;
+                    width: 137px;
+                    height: 33px;
+                    flex-shrink: 0;
+                    border-radius: 3px;
+                    border: 1px solid #000;
+
+                    background: #2468FF;
+
+                    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.04);
+
+                  }
+                }
+    
+              }
+    
+              .commentTxt{
+                padding-bottom: 1%;
+    
+              }
+              .imdiv {
+                width: 70%;
+                height: 70%;
+                display: flex;       // Adding flex to center the image and handle alignment
+                align-items: center; // Center the image vertically
+                justify-content: flex-start; // Center the image horizontally
+                padding-bottom: 1%;
+                
+    
+              
+                .img {
+                  max-width: 100%; // Ensures the image does not exceed the container's width
+                  max-height: 100%; // Ensures the image does not exceed the container's height
+                  object-fit: cover; // Use 'cover' to ensure the image covers the full area, cropping where necessary
+                  border: 1px solid #ccc; // Use a lighter color for a subtler border
+                  border-radius: 8px; // Adds rounded corners to soften the image appearance
+                  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Adds a subtle shadow for depth
+                  transition: transform 0.3s ease-in-out; // Smooth transition for interactive effects
+                
+      
+                }
+                          }
+              
+              .edsupp{
+                display: flex;
+                gap: 10px;
+                .edit{
+                  color: rgba(0, 0, 0, 0.68);
+                  cursor: pointer;
+                  font-family: "AeonikTRIAL";
+                  font-size: 0.75rem;
+                  font-style: normal;
+                  font-weight: 300;
+                  line-height: normal;
+                  text-decoration-line: underline;
+                  }
+                .supp{
+                  color: rgba(0, 0, 0, 0.68);
+                  cursor: pointer;
+
+                  font-family: "AeonikTRIAL";
+                  font-size: 0.75rem;
+                  font-style: normal;
+                  font-weight: 300;
+                  line-height: normal;
+                  text-decoration-line: underline;
+                            }
+    
+              }
+    
+                
+            }
+    
+            }
+    
+        }
+      }
+    

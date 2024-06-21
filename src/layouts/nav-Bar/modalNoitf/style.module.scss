@@ -1,0 +1,66 @@
+.ModalNotifMain{
+    inset: 48px auto auto 1484px;
+    width: 20%;
+    height: 20%;
+    top: 8%;
+    background-color: var(--ds-surface-overlay, rgb(255, 255, 255));
+    border-radius: 8px;
+    box-shadow: var(--ds-shadow-overlay, 0px 8px 12px rgba(9, 30, 66, 0.1490196078), 0px 0px 1px rgba(9, 30, 66, 0.3098039216));
+    z-index: 1000000000000000000;
+    position: fixed;
+    overflow: auto;
+    left: 67%;
+        .center{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+
+        .notifDiv{
+            background-color: rgba(255, 228, 196, 0.596);
+            margin-top: 5%;
+            margin-bottom: 1%;
+        }
+        .Content{
+            width: 82%;
+            display: flex;
+            gap: 10px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .helloTxt{
+                color: var(--Settings-first-title, #222);
+                font-family: 'AeonikTrial';
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 20px; /* 133.333% */
+            }
+            .flexstart{
+                width: 90%;
+            }
+            .WELCOMEBEAR{
+                align-self: center;
+                justify-self: center;
+                padding-top: 5%;            
+        }
+        }
+    }
+    }
+
+.ModalNotifMain::-webkit-scrollbar {
+    width: 2px; /* Set the width of the scrollbar */
+  }
+  
+  /* You can also style other scrollbar properties if needed */
+  .ModalNotifMain::-webkit-scrollbar-thumb {
+    background-color: #ccc; /* Set the color of the scrollbar thumb */
+    border-radius: 10px; /* Set the border radius of the scrollbar thumb */
+  }
+  
+  /* This hides the scrollbar track */
+  .ModalNotifMain::-webkit-scrollbar-track {
+    background-color: transparent; /* Set the background color of the scrollbar track */
+  }
+  

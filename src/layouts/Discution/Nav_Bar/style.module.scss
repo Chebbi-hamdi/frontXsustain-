@@ -1,0 +1,65 @@
+// NavBar.module.scss
+.main_card11 {
+    width: 100%;
+    height: 85px;
+    min-height: 85px;
+    display: flex;
+    background-color: #271111;
+    color: #d60909;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(0, 0, 0) !important; /* Ajoutez une bordure noire */
+    .container{
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        .inside{
+            width: 95%;
+            height: 100%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            /* flex-direction: row; */
+            /* padding-right: 50px !important; */
+            gap: 1%;        
+            .BellIm{
+            width: 25px;
+            height: 25px;
+
+            }
+            .UserInfo{
+                display: flex;
+                gap: 20px;
+
+                .ProfileImg{
+                    width: 35px;
+                    height: 35px;
+        
+
+                }
+                .Name_Plan{
+                    
+                    .Name{
+                        font-family:"GRIFTER"!important;
+                        font-weight: bold;
+                        color: black;
+                        display: flex;
+                    }
+                    .Plan{
+                        font-family:"AeonikTRIAL"!important;
+                        font-weight: normal;
+                        color: rgba(0, 0, 0, 0.375);
+                        font-size: 14px;
+
+                    }
+
+                }
+            }
+
+        }
+        }
+
+    }
+    

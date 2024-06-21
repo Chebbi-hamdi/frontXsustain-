@@ -1,0 +1,102 @@
+.MainCardD{
+
+   display: flex;
+   flex-direction: column;
+   gap: 1.5em;
+   justify-content: center;
+   overflow: hidden;
+   
+   .Header {
+   .SearchBar {
+       position: relative;
+   
+       width: 100%;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       top: 2em !important;
+       height: 41px;
+   
+       padding-left: 1.9em;
+       .FlexContent{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        height: 100%;}
+       .profileImgContainer {
+        position: relative;
+   
+        .EditIcon {
+           cursor: pointer;
+           position: absolute;
+           bottom: -7px;
+           right: -13px;
+           filter: drop-shadow(4px 1px 9px rgba(0, 0, 0, 0.554));
+        }
+   
+        .profileImg {
+           width: 70px;
+           height: 65px;
+           border-radius: 5px;
+           border: 1px solid rgba(0, 0, 0, 0.212);
+        }
+       }
+   
+       .InputContainer {
+        position: relative;
+        width: 30em !important;
+        height: 90%;
+        .Input {
+           width: 100%;
+           height: 100%;
+           padding: 0 0 0 1em;
+   
+           border: 1.8px solid #b2b0b0b2;
+           border-radius: 6px;
+           color: #424141;
+        }
+       }
+   
+       .SearchBar1 {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        height: 100%;
+   
+        .btn_send {
+           width: 12em;
+           height: 100%;
+           border: none;
+           border-radius: 6px;
+           font-size: 14px;
+           font-weight: 500;
+           color: #fff;
+   
+           background: #2468ff;
+        }
+        .btn_close {
+           width: 92px;
+           height: 100%;
+           border: 2px solid #b2b0b0b2;
+           border-radius: 6px;
+           background: #fff;
+           font-size: 14px;
+           font-weight: 500;
+           
+        }
+       }
+   }
+   }
+   .Bodyy{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   
+   .Draw {
+       position: absolute;
+   z-index: -999;
+       left: 0;
+       bottom: 0;
+   }
+   }
+   }

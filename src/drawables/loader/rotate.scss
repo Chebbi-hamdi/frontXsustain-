@@ -1,0 +1,49 @@
+.rotate-letter {
+    display: inline-block;
+    animation: rotateLetter 5s infinite linear;
+  }
+  
+  .loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This makes sure it takes the full viewport height */
+    margin: 0; /* Removes default margin */
+    animation: rotateLoader 5s infinite linear; /* Add rotation animation */
+  }
+  
+  h1 {
+    font-size: 2em;
+    padding: 64px;
+    background: linear-gradient(
+      to right,
+      hsl(0, 0%, 2%) 0,
+      hsl(0, 0%, 100%) 10%,
+      hsl(0, 0%, 3%) 20%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    background-clip: text;
+    animation: rotateLoader 5s infinite linear; /* Add rotation animation */
+
+  }
+  
+  /* Ensure animations are defined for rotateLetter and rotateLoader */
+  @keyframes rotateLetter {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes rotateLoader {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

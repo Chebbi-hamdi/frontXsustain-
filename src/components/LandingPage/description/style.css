@@ -1,0 +1,343 @@
+.description{
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.douda{
+    position: absolute;
+    right: 0;
+    top: -60px;
+    z-index: -2;
+}
+.description h1 span{
+    color: #2468ff;
+}
+
+.description .HeartIcon{
+    margin-bottom: 10px;
+}
+.top-side-description{
+    width: 80%;
+    align-items: center;
+}
+
+.top-side-description p {
+    font-size: 28px;
+    font-weight: 300;
+}
+.top-side-description p span{
+    color: #2468ff;
+    font-weight: 500;
+}
+
+.blueMelon{
+    position: absolute;
+    left: -100px;
+    top: 400px;
+}
+.middle-side-description{
+    margin-top: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.middle-side-description .choice{
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: left;
+    width: 90%;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 90%;
+    height: 100%;
+    margin-top: 20px;
+    gap: 50px;
+}
+.description1{
+    padding-top: 100px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    width: 95%;
+}
+.description h2{
+    font-size: 35px;
+    padding: 0;
+    margin-top: -43px;
+    font-weight: bold;
+    font-family: "GrifterBold", sans-serif; 
+
+}
+.description p.desc-txt{
+    font-weight: 300;
+    font-size: 20px;
+}
+.description p span{
+    font-weight: 600;
+}
+
+.circles{
+    position: absolute;
+    bottom: -75px;
+    left: -100px;
+}
+
+.bottom-side-description{
+    background-color: black;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    transform: rotate(-5deg);
+    width: 150%;
+}
+.bottom-side-description svg{
+    width:25px;
+    height: 100%;
+}
+.bottom-side-description p {
+    font-size: 20px;
+    display: inline-flex;
+    gap: 10px;
+    align-items: center;
+    color: white;
+}
+.parent-container {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+}
+
+.position-left {
+    margin-left: auto;
+    padding-right: 1%;
+
+}
+.position-left-margin{
+    margin-left: 53%;
+}
+.card5{
+    
+    transform: translateY(-20%);
+    padding-left: 10% ;
+}
+.position-bottom {
+    margin-bottom:-17px;
+    position: relative;
+    padding-top: 2%;
+    padding-bottom: 0 !important;
+}
+.z-index{
+    z-index:999 ;
+}
+
+.custom-card:hover {
+  background-color: #000;
+  color: #fff;
+}
+.card-arrow-1 {
+    position: absolute;
+    bottom: 2%;
+    right: 20%;
+    z-index: 999999999999999;
+}
+.card-hand-2 {
+    position: absolute;
+    bottom: 30%;
+    left: 5%;
+    z-index: 9999999999999999;
+    fill:white
+}
+.svg-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .svg-item {
+    
+    
+    transition: opacity 0.3s ease; /* Smooth transition for opacity change */
+  }
+  
+  .hidden {
+    opacity: 0;
+  }
+  .absolute{
+    position: absolute;
+  }
+  @media only screen and (max-width: 768px) {
+    .cards{
+        display: grid;
+
+        grid-template-columns: 1fr; /* Change to one column */
+        width: 100%;
+        height: 100%;
+        margin-top: 20px;
+        gap: 5%;
+        justify-items: center;
+        padding-left: auto;
+        padding-right: auto;
+
+        grid-row-gap: 5%; /* Add space between rows */
+
+    }
+    .bottom-side-description{
+        margin-top: 70% !important;
+    }
+    .card5{
+    
+        transform: translateY(5%);
+        padding-left: 10% ;
+    }
+    .position-left-margin {
+        margin-left: 39%;
+        padding-top: 18%;
+    }
+    .top-side-description p {
+        font-size: 22px;
+        font-weight: 300;
+    }
+    
+    .description h2{
+        font-size: 22px;
+        padding: 0;
+        margin-top: -43px;
+        font-weight: bold;
+        font-family: "GrifterBold", sans-serif; 
+    
+    }
+    .hidden {
+        opacity: 0;
+      }
+    .phoneCardSize{
+        width: 80%;
+        height: 100%;
+        margin-bottom: 19%;
+    
+    }
+    .position-left3{
+        
+        padding-left: 43%;
+        padding-top: 7%;
+    }
+    .position-left2{
+        padding-top: 26%;
+        padding-left: 43%;
+    }
+   
+    .position-left{
+        padding-top: 21% !important;
+        
+    }
+    .position-left5{
+        padding-left: 40%;
+
+        padding-top: 20% !important;
+
+    }
+   
+    .phoneSVGSize{
+        width: 198px;
+    height: 99px;
+    margin-top: -12% !important;
+    }
+    .description1{
+        padding-top: 10%px;
+        padding-left: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0;
+        width: 95%;
+    }
+    .description p.desc-txt{
+        text-align: start;
+        font-weight: 100%;
+        font-size: 20px;
+        padding-right:8% ;
+        margin-top: -12px;
+    }
+    .position3{
+        margin-left: -5% !important
+        }
+    .phoneVersionPosition2{
+        position:  relative!important;
+        height: 94px;
+        width: 193px;
+        border-radius: 12px;
+        margin-left: -4% !important;
+        margin-top: -18%;
+    }
+    .circles{
+        position: absolute;
+        bottom: -202px;
+        left: -100px;
+    }
+    .blueMelon{
+        left: -52px;
+        top: 400px;
+        width: 100px; /* Change this value to adjust the width */
+        height: 100px; /* Change this value to adjust the height */
+    }
+    .douda{
+        position: absolute;
+        right: 0;
+        top: -38px;
+        z-index: -2;
+        width: 100px; /* Change this value to adjust the width */
+        height: 100px; /* Change this value to adjust the height */
+        }
+    .phoneVersionPosition3{
+        position: relative  !important;
+        height: 94px;
+        width: 193px;
+        margin-left: -5% !important;
+        border-radius: 12px;
+        margin-top: -21% !important;
+    }
+    .phoneVersionPosition{
+        height: 94px;
+         width: 193px;
+         padding-left: 26%;
+         padding-top: 21%;
+         border-radius: 12px;
+        }
+        .bottom-side-description{
+            background-color: black;
+            margin-top: 100%;
+            margin-bottom: 100px;
+            transform: rotate(-5deg);
+            width: 150%;
+        }
+  }
+  .BreezPTitle{
+        font-size: max(2.8vw,18px)!important;
+        font-weight: 700;
+
+  }
+  .BreezSpanTitle{
+    font-size: max(2.8vw,18px)!important;
+    color: #2468ff;
+    font-weight: 700;
+
+  }
+  .paragraphBreez{
+    font-size: max(1.5vw,18px)!important;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .centerBREEZ{
+    width: 60%;
+
+  }

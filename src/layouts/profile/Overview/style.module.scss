@@ -1,0 +1,428 @@
+.Main {
+    height: 85%;
+    .Secondary {
+      height: 100%;
+      gap: 22px !important;
+      justify-content: space-between !important;
+  
+      .PlatSett {
+        border: 1px solid black !important; // Set border to 1px solid black
+        border-radius: 7px !important;
+        display: flex;
+        justify-content: center;
+  
+        .HeaderCard1 {
+          width: 90% !important;
+          height: 100% !important;
+  
+          .HeaderCard {
+            height: 17.2%;
+            width: 90%;
+            display: flex;
+            align-items: center;
+  
+            .Title {
+              margin: 0% !important;
+              color: #000;
+  
+              font-size: 1.125rem;
+              font-style: normal;
+              font-weight: 500;
+              line-height: 140%; /* 1.575rem */
+              font-family: "AeonikTRIAL" !important;
+            }
+          }
+          .Account {
+            width: 100% !important;
+            color: rgba(0, 0, 0, 1);
+            height: 40%;
+            display: flex;
+            align-items: center;
+  
+            .AccountCenter {
+              .AccountTitle {
+                font-family: "AeonikTrial" !important;
+                color: #737373;
+                font-size: 0.625rem;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 150%; /* 0.9375rem */
+                margin: 0 !important;
+              }
+              .Follow {
+                display: flex;
+                align-items: center;
+                gap: 0.2em;
+                color: #73737359;
+                font-size: 0.75rem;
+                font-style: normal;
+                font-weight: 400;
+                font-family: "AeonikTRIAL";
+              }
+              .Answer {
+                display: flex;
+                align-items: center;
+                gap: 0.2em;
+                color: #73737359;
+                font-size: 0.75rem;
+                font-style: normal;
+                font-weight: 400;
+                font-family: "AeonikTRIAL";
+              }
+  
+              .Mention {
+                display: flex;
+                align-items: center;
+                gap: 0.2em;
+                color: #73737359;
+                font-size: 0.75rem;
+                font-style: normal;
+                font-weight: 400;
+                font-family: "AeonikTRIAL";
+              }
+            }
+          }
+          .Application {
+            width: 100% !important;
+            color: rgba(0, 0, 0, 1);
+            height: 40%;
+            display: flex;
+            align-items: center;
+            .ApplicationCenter {
+              .appTitle {
+                font-family: "AeonikTrial" !important;
+                color: #737373;
+                font-size: 0.625rem;
+                font-style: normal;
+                font-weight: 500;
+              }
+              .Lanches {
+                display: flex;
+                align-items: center;
+                gap: 0.2em;
+                color: #73737359;
+                font-size: 0.75rem;
+                font-style: normal;
+                font-weight: 400;
+                font-family: "AeonikTRIAL";
+              }
+              .Updates {
+                display: flex;
+                align-items: center;
+                gap: 0.2em;
+                color: #73737359;
+                font-size: 0.75rem;
+                font-style: normal;
+                font-weight: 400;
+                font-family: "AeonikTRIAL";
+              }
+  
+              .Newsteller {
+                display: flex;
+                align-items: center;
+                gap: 0.2em;
+                color: #73737359;
+                font-size: 0.75rem;
+                font-style: normal;
+                font-weight: 400;
+                font-family: "AeonikTRIAL";
+              }
+            }
+          }
+        }
+      }
+    }
+    .ProfileInf {
+      border: 1px solid black !important; // Set border to 1px solid black
+      border-radius: 7px !important;
+      display: flex;
+      justify-content: center;
+      gap: 20% !important;
+      .flexProfile {
+        width: 90% !important;
+        height: 100% !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .HeaderProfileInfo {
+          height: 45% !important;
+          width: 100% !important;
+  
+          .Headd {
+            height: 45% !important;
+            width: 100% !important;
+            display: flex;
+            align-items: center;
+  
+            .Headd1 {
+              display: flex;
+              align-items: baseline;
+              height: 35%;
+              gap: 20%;
+              width: 100% !important;
+  
+              .Edit {
+                height: 1em;
+              }
+              .Titlediv {
+                height: 17.2%;
+                width: 70%;
+                display: flex;
+                align-items: center;
+                .Title {
+                  margin-top: 0% !important;
+                  color: #000;
+  
+                  font-size: 1.125rem;
+                  font-style: normal;
+                  font-weight: 500;
+                  line-height: 140%; /* 1.575rem */
+                  font-family: "AeonikTRIAL" !important;
+                }
+              }
+            }
+          }
+          .Introdiv {
+            height: 70% !important;
+            .Intro {
+              color: #000000a8;
+            }
+          }
+        }
+        .Ligne {
+          position: relative;
+          width: 100% !important;
+          bottom: 12.5% !important;
+        }
+        .Profile {
+          display: flex;
+          height: 50% !important;
+          align-items: center;
+  
+          .Profile1 {
+            .InformationDiv {
+              display: flex;
+              justify-content: flex-start;
+              gap: 2em;
+              padding-top: 8%;
+              .titre {
+                color: #000;
+                font-family: "AeonikTRIAL";
+                font-size: 0.75rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 150%; /* 1.125rem */
+              }
+              .Name {
+                color: #737373ad;
+                font-family: "AeonikTRIAL";
+                font-size: 0.75rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 150%;
+              }
+              .Mobile {
+                color: #737373ad;
+                font-family: "AeonikTRIAL";
+                font-size: 0.75rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 150%;
+              }
+              .Email {
+                color: #737373ad;
+                font-family: "AeonikTRIAL";
+                font-size: 0.75rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 150%;
+              }
+              .Location {
+                color: #737373ad;
+                font-family: "AeonikTRIAL";
+                font-size: 0.75rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 150%;
+              }
+  
+              img {
+                height: 15px;
+                width: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .TeamMem {
+      width: 30%;
+      height: 100%;
+      border: 1px solid black !important; // Set border to 1px solid black
+      border-radius: 7px !important;
+      .flexteam {
+        display: flex;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+  
+        .centerHead {
+          .HeaderTeam {
+            height: 15%;
+            display: flex;
+            align-items: center;
+  
+            .Title {
+              margin: 0% !important;
+              color: #000;
+              font-size: 1.125rem;
+              font-style: normal;
+              font-weight: 500;
+              line-height: 140%; /* 1.575rem */
+              font-family: "AeonikTRIAL" !important;
+              width: 50%;
+            }
+            .editTeam {
+              height: 20%;
+            }
+          }
+        }
+  
+        .TeamMemBody {
+          overflow: auto;
+          height: 80%;
+  
+          .ListOfMemebers {
+            width: 100%;
+            height: 25%;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+  
+            .MemberImg {
+              width: 3.125rem;
+              height: 3.125rem;
+              border-radius: 9px;
+              border: 1px solid rgba(6, 6, 6, 0.087);
+            }
+            .span {
+              height: 50%;
+              font-size: 1em;
+            }
+            .buble {
+              height: 50%;
+              width: 14%;
+            }
+            .name_email_Container {
+              height: 36%;
+            }
+  
+            .MemberName {
+              color: #000;
+  
+              font-family: "AeonikTRIAL";
+              font-size: 0.875rem;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 140%; /* 1.225rem */
+            }
+            .MemeberEmail {
+              color: #959595;
+  
+              font-family: "AeonikTRIAL";
+              font-size: 0.75rem;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 140%; /* 1.05rem */
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  
+  .Modal {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: white;
+      width: 40%;
+      height: 60%;
+      border: 1px solid blue;
+      border-radius: 10px;
+    .ModalContent {
+      position: absolute;
+      /* border: 0px solid #e41515; */
+      width: 80%;
+      padding: 0px;
+      margin: 0px;
+  
+      .ModalTitle {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+  
+      form {
+        display: flex;
+        flex-direction: column;
+  
+        label {
+          margin-bottom: 10px;
+          font-size: 1rem;
+          font-weight: bold;
+  
+          input {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+          }
+        }
+      }
+  
+      button {
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        background-color: #007bff;
+        color: white;
+        cursor: pointer;
+        margin-top: 20px;
+      }
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .Main {
+      height: 100%;
+    }
+    .Secondary {
+      flex-direction: column;
+      gap: 20px;
+      justify-content: center;
+      justify-content: center;
+      flex-direction: column;
+      display: flex;
+      height: 50% !important;
+    }
+  
+    .PlatSett,
+    .ProfileInf,
+    .TeamMem {
+      width: 100% !important;
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    /* Add styles for tablets */
+  }
+  
+  @media (min-width: 1024px) {
+    /* Add styles for desktops */
+  }
+  

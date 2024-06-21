@@ -1,0 +1,22 @@
+.Input{
+    width: 100px;
+    height:32px ;
+    border: 1.8px solid rgba(0, 0, 0, 0.826);
+    border-radius: 9px;
+}
+.InputContainer {
+    position: relative;
+  }
+  
+  .SearchIcon {
+    position: absolute;
+    left: 1.5%; /* Ajustez cette valeur selon vos besoins */
+    top: 56%;
+    transform: translateY(-50%);
+  }
+  
+  .Input {
+    padding-left: 16%;
+    /* Ajoutez d'autres styles nécessaires pour votre input */
+  }
+  

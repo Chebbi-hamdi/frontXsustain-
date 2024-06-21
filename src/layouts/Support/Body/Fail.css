@@ -1,0 +1,39 @@
+.fail-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  
+  .fail-page button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #721c24;
+    color: white;
+    cursor: pointer;
+  }
+
+  .success-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .success-page button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #155724;
+    color: white;
+    cursor: pointer;
+  }

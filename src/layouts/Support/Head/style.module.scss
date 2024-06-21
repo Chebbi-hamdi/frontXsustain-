@@ -1,0 +1,31 @@
+.MainHeadSupp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .TextContainerHead{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2em;
+
+        
+     
+        .HeadTxt{
+        font-family: "GRIFTER"!important;
+        font-size: 1.9em!important;
+        font-weight: 400!important;
+        .imgTitle{
+            position: relative;
+            left: -26.23%;
+            top: 35%;
+            
+        }
+
+        .Healp{
+            color: blue;
+        }
+    }   
+    }
+    
+}

@@ -1,0 +1,23 @@
+.Head{
+    background-color: black;
+    height: 214px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5em;
+
+    align-items: center;
+    .HeadCenter{
+        display:flex ;
+        justify-content: flex-start;
+        width: 90%;
+        height: 10%;
+        .Title{
+            color: white;
+            font-size: 2em!important;
+            font-family:"GRIFTER" ;
+            
+        }
+
+    }
+   
+}

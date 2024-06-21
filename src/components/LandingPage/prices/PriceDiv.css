@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "GrifterBold";
+    src: url("../../../assets/fonts/aeoniktrial-bold.otf") format("opentype");
+    font-family: "AeonikRegular";
+    src: url("../../../assets//fonts/aeoniktrial-regular.otf") format("opentype");
+  }
+  
+.customButton {
+  width: 90%;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+.text-centered-small {
+  width: 154px;
+  height: 14px;
+  color: #000;
+  font-family: "AeonikRegular", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+.packText {
+  padding-left: 2%;
+  width: 250px;
+  height: 24px;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #000;
+  font-family: "AeonikRegular", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.btnDivv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.typePlan{
+  font-family: "GrifterBold", sans-serif; 
+  font-size: max(2vw,22px);
+  display: flex;
+  align-items: center;
+padding-top: 10%;}

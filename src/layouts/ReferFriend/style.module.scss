@@ -1,0 +1,384 @@
+.MainRefFriend{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    .CenterRef{
+        height: 95%;
+        width: 95%;
+        .BodyForReal{
+            width: 100%;
+            height: 91%;
+            border-radius: 4px;
+            border: 1px solid rgba(0, 0, 0, 0.42);
+            margin-bottom: 2%;
+            background: #FFF;
+            .Top{
+                height: 55%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .centerTop{
+                    height: 100%;
+                    width: 90%;
+                    border-bottom: 1px solid black;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .topright{
+                        height: 80%;
+                        width: 50%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        .centerrrr{
+                            height: 92%;
+                            width: 95%;
+
+                            .HintDiv{
+                                height: 4.5vw;
+                                width: 95%;
+                                margin-bottom: 1%;
+                                padding-top: 1%;
+                                max-height: 65px;
+                                
+                                .Title{
+                                    color: #000;
+                                    font-family: 'AeonikTrial';
+                                    font-size: 1vw;
+                                    font-style: normal;
+                                    font-weight: 600;
+                                    line-height: normal;
+                                    padding-bottom: 1%;
+                                    padding-top: 1%;
+                                    font-size: min(1vw, 22px); /* Adjust the maximum value as per your requirement */
+    
+    
+                                }
+                                .Txt{
+                                    color: #737373;
+                                    font-family: "AeonikTRIAL";
+                                    font-size: 0.9vw;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: normal;
+                                    font-size: min(0.9vw, 18px); /* Adjust the maximum value as per your requirement */
+    
+                                }
+        
+                            }
+                            .InputDiv0{
+                                height: 4.3vw;
+                                width: 95%;
+                                max-height: 90px;
+                                .TitleInputDiv{
+                                    color: #000;
+                                    font-family: "AeonikTRIAL";
+                                    font-size: 1vw;
+                                    font-style: normal;
+                                    font-weight: 600;
+                                    line-height: normal;
+                                    padding-bottom: 3%;
+                                    padding-top: 3%;
+                                    font-size: min(0.9vw, 20px); /* Adjust the maximum value as per your requirement */
+    
+    
+                                }
+                                .flexInput{
+                                    display: flex;
+                                    gap: 5%;
+    
+                                    .LinkInput{
+                                        border-radius: 5px;
+                                        border: 1px solid #000;
+                                        width: 75%;
+                                        height:1.8vw;
+                                        max-height: 35px;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: flex-start;
+                                        padding-left: 5%;
+                                        overflow: hidden;
+                                        font-size: min(0.8vw, 18px); /* Adjust the maximum value as per your requirement */
+
+                                        .link{
+                                            color: #00000089;
+                                            font-family: "AeonikTRIAL";
+                                            font-weight: 400;
+                                            font-size: 0.9vw; /* Set font size to 5% of the viewport width */
+                                            overflow: hidden;
+
+                                        }
+    
+                                    }
+                                    .ButtonLink{
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        height:1.8vw;
+                                        max-height: 35px;
+                                        width: 20%;
+                                        border-radius: 5px;
+                                        border: 1px solid #000;
+                                        cursor: pointer;
+                                        background: #2468FF;
+                                        .CenterFlex{
+                                            height: 90%;
+                                            width: 90%;
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+                                            gap: 14%;
+                                            .inmg{
+                                                width: 17px;
+                                                height: 17px;
+    
+                                            }
+                                            .Copy{
+                                                color: #FFF;
+                                                font-family: "AeonikTRIAL";
+                                                font-size: min(0.7vw, 16px); /* Adjust the maximum value as per your requirement */
+                                                font-style: normal;
+                                                font-weight: 400;
+                                                line-height: normal;
+                                            }
+    
+    
+                                        }
+    
+                                    }
+                                }
+    
+    
+                            }
+                            .InputDiv{
+                                border-top: 1px solid black;
+    
+                                height: 4.3vw;
+                                width: 95%;
+                                max-height: 90px;
+    
+                                .TitleInputDiv{
+                                    color: #000;
+                                    font-family: "AeonikTRIAL";
+                                    font-size: 1vw;
+                                    font-style: normal;
+                                    font-weight: 600;
+                                    line-height: normal;
+                                    padding-bottom: 3%;
+                                    padding-top: 3%;
+                                    font-size: min(0.9vw, 20px); /* Adjust the maximum value as per your requirement */
+    
+    
+    
+                                }
+                                .flexInput{
+                                    display: flex;
+                                    gap: 5%;
+    
+                                    .LinkInput{
+                                        border-radius: 5px;
+                                        border: 1px solid #000;
+                                        width: 75%;
+                                        height:1.8vw;
+                                        max-height: 35px;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: flex-start;
+                                        padding-left: 5%;
+                                        overflow: hidden;
+                                        font-size: min(0.8vw, 18px); /* Adjust the maximum value as per your requirement */
+
+                                        .link{
+                                            color: #00000089;
+                                            font-family: "AeonikTRIAL";
+                                            font-weight: 400;
+                                            height: 1em;
+                                            font-size: 1vw; /* Set font size to 5% of the viewport width */
+                                            overflow: hidden;
+    
+                                        }
+    
+                                    }
+                                    .ButtonLink{
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        height:1.8vw;
+                                        max-height: 35px;
+                                        width: 20%;
+                                        border-radius: 5px;
+                                        border: 1px solid #000;
+                                        cursor: pointer;
+
+                                        background: #2468FF;
+                                        .CenterFlex{
+                                            height: 90%;
+                                            width: 90%;
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+                                            gap: 14%;
+                                            .inmg{
+                                                width: 1vw;
+                                                height: 1vw;
+    
+                                            }
+                                            .Copy{
+                                                color: #FFF;
+                                                font-family: "AeonikTRIAL";
+                                                font-size: min(0.7vw, 16px); /* Adjust the maximum value as per your requirement */
+                                                font-style: normal;
+                                                font-weight: 400;
+                                                line-height: normal;
+                                            }
+    
+    
+                                        }
+    
+                                    }
+                                }
+    
+                            }
+                            .LogosDiv{
+                                height: 19%;
+                                width: 95%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: flex-start;
+                                gap: 4%;
+                                margin-top: 2%;
+    
+    
+                            }
+                        }
+                    }
+                    .topleft{   
+                        height: 80%;
+                        width: 50%;
+                        display:flex;
+                        align-items: center;
+                        justify-content: center;
+                        .center{
+                            height: 87%;
+                            width: 100%;
+                            border-radius: 6px;
+                            border: 1px solid #000;
+                            
+                            .shareLink{
+                                height: 33%;
+                                width: 100%;
+                                margin-bottom: 1%;
+
+                            }
+                            .YourTeamKoin{
+                                height: 33%;
+                                width: 100%;
+
+                            }
+                            .Reward{
+                                height: 33%;
+                                width: 100%;
+                                border-bottom: 0px !important;
+
+                            }
+
+
+                        }
+
+                    }
+                }
+            }
+            .Bottom{
+                height: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .centerBottom{
+                    height: 100%;
+                    width: 90%;
+                    .TtileDiv{
+                        height: 10%;
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        padding-top: 2%;
+                        .TxtTitile{
+                            color: #000;
+                            font-family: "AeonikTRIAL";
+                            font-weight: 600;
+                            font-size: 1vw; /* Set font size to 5% of the viewport width */
+                        
+
+                        }
+
+                    }
+                    .Headtab{
+                        height: 15%;
+                        width: 100%;
+                        margin-top: 2.5%;
+                        border: 1px solid black;
+                        border-radius: 6px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-end;
+                        .flexEnddd{
+                            width: 94.5% ;
+                            gap: 2;
+                            display: flex;
+                            align-items: center;
+                            justify-content: flex-end;
+    
+                            .invitedDiv,
+                            .inviterDiv,
+                            .StatusDiv,
+                            .PositionDiv,
+                            .EarningDiv {
+                                height: 80%;
+                                width: 20%;
+                            
+                               
+                            }
+                        }
+                                            }
+                    .BodyTab{
+                        height: 40%;
+                        width: 100%;
+                        margin-top: 2.2%;
+                        border-radius: 6px;
+                        overflow: auto;
+                        border: 1px solid black;
+                        
+
+
+
+                    }
+                }
+
+
+            }
+            
+        }
+    }
+}
+.Txt {
+    color: #000;
+    font-family: "AeonikTRIAL";
+    font-weight: 600;
+    font-size: 1vw; /* Set font size to 5% of the viewport width */
+}
+
+.BodyTab::-webkit-scrollbar {
+    width: 2px; 
+  }
+  
+  .BodyTab::-webkit-scrollbar-thumb {
+    background-color: #ccc; 
+    border-radius: 10px;
+  }
+  
+  .BodyTab::-webkit-scrollbar-track {
+    background-color: transparent; 
+  }
+  

@@ -1,0 +1,117 @@
+.main_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    .auth_card{
+
+      .H3Div{
+        width: 80%;
+        margin: 15px;
+        .H33{
+          font-size: 34px!important;
+          font-family: "GRIFTER";
+        }
+      }
+      
+      .buttons{
+        margin: 20px;
+        .leFlex{
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          
+          
+          .btn_google{
+          margin-bottom: 10px;
+          background-color: black;
+          color: aliceblue;
+          .google_logo{
+            margin: 10px;
+          }
+        }
+        .btn_email {
+
+          p{
+     
+              font-weight: bold; // Make the text bold
+              color: black; // Set the text color to black
+            
+            
+          }
+          margin-top: 10px;
+          background-color: white;
+        }
+        .or {
+          display: flex;
+          align-items: center;
+          p {
+            color: #2468FF;
+          }
+        
+          .Or_left,
+          .Or_right {
+            margin-right: 10px; // Ajoute un espace entre les images et le texte "Or"
+            margin-left: 10px; // Ajoute un espace entre les images et le texte "Or"
+    
+          }
+        }
+        
+    
+        .btn_google,
+        .btn_email {
+          width: 557px;
+          height: 65px;
+          border-radius: 5px;
+          border: 1px solid black;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          
+        }  
+        }
+
+      }
+      .terms_login{
+        display: flex;
+        align-items: center !important;
+        justify-content: center;        
+
+        .first {
+          .second{
+                      
+            p {
+              align-items: center;
+              display: flex;
+              flex-direction: column;
+              padding-bottom: 5%;
+              font-family: "AeonikTRIAL"  ;
+
+              strong {
+                font-weight: normal;
+
+                color: #2468FF; // Change the color of the strong elements
+              }
+
+          }
+          .p1{
+            font-weight: bold;
+            font-size: 14px;
+          } 
+          .p2{
+            font-weight: normal;
+            font-size: 15px;
+
+            strong {
+              
+              color: #2468FF; // Change the color of the strong elements
+            }
+          }
+          }
+        }
+    
+      }
+    }
+   
+  }
+ 

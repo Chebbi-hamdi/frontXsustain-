@@ -1,0 +1,108 @@
+.leFlexTab {
+    height: 90%;
+    width: 100%;
+
+    .HeadTab {
+        display: flex;
+        align-items: center;
+        width: 100%!important;
+
+        .HeadTabCont {
+            display: flex;
+            gap: 4%;
+            height: 90%;
+            align-items: center;
+            width: 100%!important;
+            border: 2px solid black;
+            border-radius: 9px;
+
+            .SubBY {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+                width: 90%!important;
+
+                .Ptxt {
+                    font-weight: 600!important;
+                }
+            }
+
+            .CenterContainer {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+                width: 90%!important;
+
+                .Ptxt {
+                    font-weight: 600!important;
+                }
+            }
+        }
+    }
+
+    .BodyTab {
+        border: 2px solid black;
+        display: flex;
+        align-items: center;
+        width: 100%!important;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 0%;
+        border-radius: 9px;
+        max-height: 90%;
+        overflow: auto;
+        height: 28.5em!important;
+
+        .draggableitem {
+        }
+
+        .draggableitem.dragging {
+            background-color: rgba(0, 0, 0, 0.163);
+            opacity: 1!important;
+            scale: 1!important;
+            width: 78%!important;
+            padding: 0!important;
+            margin: 0!important;
+        }
+
+        .draggableitem.dropping {
+            width: 100%!important;
+            padding: 0!important;
+            margin: 0!important;
+            background-color: inherit; // Set the background color to inherit or any desired color
+            /* Your additional styles for dropping */
+        }
+            }
+
+}
+.BodyTab::-webkit-scrollbar {
+    width: 5px; 
+  }
+  
+  .BodyTab::-webkit-scrollbar-thumb {
+    background-color: #ccc; 
+    border-radius: 10px;
+  }
+  
+  .BodyTab::-webkit-scrollbar-track {
+    background-color: transparent; 
+  }
+  .leflexx{
+    display: flex;
+    width: 100%;
+    height: 1;
+  }
+  .leflexxpad{
+    display: flex;
+    width: 100%;
+    height: 300px;
+  }
+.Project_TaskDiv:hover{
+    background-color: #b0b0b04f; /* Adjust the color as needed */
+
+}
+.arrowDown{
+    cursor: pointer;
+    z-index: 9999999999;
+}

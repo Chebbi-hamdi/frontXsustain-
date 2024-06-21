@@ -1,0 +1,126 @@
+.header_container {
+  display: flex;
+  width: 100%!important;
+  justify-content: center;
+
+  .flexx {
+    overflow: hidden;
+    height: 100% !important;
+    width: 96% !important;
+
+    .profile {
+      overflow: hidden!important;
+
+      .userData {
+        display: flex;
+        height: 100%;
+        width: 154%;
+        align-items: center;
+        gap: 10px;
+        flex-direction: row;
+
+        .profileImgContainer {
+          position: relative;
+
+          .EditIcon {
+            cursor: pointer;
+            position: absolute;
+            bottom: -7px;
+            right: -13px;
+            filter: drop-shadow(4px 1px 9px rgba(0, 0, 0, 0.554));
+          }
+
+          .profileImg {
+            width: 70px;
+            height: 65px;
+            border-radius: 5px;
+            border: 1px solid rgba(0, 0, 0, 0.212);
+          }
+        }
+
+        .name {
+          color: black;
+          display: flex;
+          flex-direction: column;
+          padding-bottom: 50px;
+          gap: 5px;
+        }
+
+        .email {
+          color: rgba(0, 0, 0, 0.418);
+        }
+      }
+
+      .Panda {
+        height: 60px;
+        width: 110px;
+        position: absolute;
+        top: -29%;
+        left: 86%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+      }
+    }
+
+    .navig {
+      display: flex;
+      flex-direction: row;
+      height: 100%;
+      gap: 10px;
+      align-items: center;
+      font-size: 16px;
+      justify-content: flex-end;
+
+      .active {
+        gap: 7px;
+        border-radius: 0.5pc;
+        width: 30%;
+        display: flex;
+        flex-direction: row;
+        height: 30%;
+        align-items: center;
+        justify-content: center;
+        border: 1.7px solid #000;
+
+        .p {
+          align-items: center;
+        }
+      }
+    }
+  }
+
+  .Main {
+    height: 90%;
+  }
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  .header_container {
+    flex-direction: column;
+
+    .flexx {
+      .profile {
+        margin-bottom: 20px;
+      }
+
+      .navig {
+        justify-content: center;
+        margin-top: 20px;
+      }
+    }
+
+    .Main {
+      height: auto;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Add styles for tablets */
+}
+
+@media (min-width: 1024px) {
+  /* Add styles for desktops */
+}

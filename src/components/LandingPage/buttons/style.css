@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "GrifterBold";
+    src: url("../../../assets/fonts/grifterbold.otf") format("opentype");
+  }
+  
+.buttonStyle {
+  border-radius: 8px;
+  border: 1px solid #000;
+  width: 119px;
+  height: 43px;
+  background: #fff; 
+  font-family: "GrifterBold", sans-serif; 
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+

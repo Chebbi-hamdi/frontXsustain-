@@ -1,0 +1,16 @@
+.memberBubble {
+    width: 2.125rem;
+    height: 2.125rem;
+    min-width: 20px;
+    min-height:20px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    font-size: 18px;
+    .spanLetter{
+      height: 50%;
+      font-size: 0.9rem;
+    }
+  }

@@ -1,0 +1,17 @@
+.MuiModal-root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: fixed; */
+  right: 0;
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+/* .MuiBackdrop-root {
+background-color: white;
+opacity: 0 !important; 
+top: 25% !important; 
+left: 40% !important; 
+position: fixed;
+  }
+   */

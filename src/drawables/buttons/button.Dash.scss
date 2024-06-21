@@ -1,0 +1,22 @@
+.Hint {
+    width: 100%;
+    height: 65px;
+    border-radius: 6px;
+    border: 1px solid #b0b0b0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fefefe!important;
+    color: #000000!important;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: "GRIFTER";
+    font-size: 1em;
+    transition: box-shadow 0.3s ease;
+    box-shadow: none;
+
+    &:hover {
+        box-shadow: 4px 4px 0 rgba(0, 0, 0, 1)!important;
+        
+    }
+}

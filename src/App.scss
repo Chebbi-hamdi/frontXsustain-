@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'AeonikTRIAL';
+    src: url('../src/assets/fonts/aeonik/AeonikTRIAL-Bold.otf') format('opentype'); /* Path to the Bold font */
+    font-weight: bold;
+  }
+  
+  @font-face {
+    font-family: 'AeonikTRIAL';
+    src: url('../src/assets/fonts/aeonik/AeonikTRIAL-Light.otf') format('opentype'); /* Path to the Light font */
+    font-weight: lighter;
+  }
+  
+  @font-face {
+    font-family: 'AeonikTRIAL';
+    src: url('../src/assets/fonts/aeonik/AeonikTRIAL-Regular.otf') format('opentype'); /* Path to the Regular font */
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: 'GRIFTER' ;
+    src: url('../src/assets/fonts/grifter/grifterbold.otf') format('opentype');
+    font-weight: bold;
+  }
+  *{
+  }
+  body{
+    overflow-x: hidden;
+    font-family:'AeonikTRIAL' ;
+    font-weight: normal;
+  }
+
+  p{
+    margin: 0;
+    padding: 0;
+  }
+  @media (min-width: 1000px) {
+    body {
+        /* Set any styles you want for when the window is at least 1000 pixels wide */
+        /* For example: */
+        min-width: 1000px!important;
+    }
+}

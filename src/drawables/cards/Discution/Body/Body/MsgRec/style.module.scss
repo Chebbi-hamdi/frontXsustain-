@@ -1,0 +1,105 @@
+.Main{
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    
+    
+    .leflexx{
+        width: 97.5%;
+        gap: 1% !important;
+        display: flex;
+        justify-content: flex-start !important;     
+        padding-left:1%;   
+        .ImgContact{
+            height: 60px;
+            width: 60px;
+            border-radius: 1rem;
+        }
+        .divBuble{
+            width: 3rem;
+            height: 3rem;
+
+            .buble{
+                width: 3rem;
+                height: 3rem;
+
+                .span{
+                    width: 3rem;
+                    height: 3rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+                    color: white;
+                    font-size: 18px;
+                }
+            }
+        }
+
+        .LastMsg{
+            font-size: 0.8em;
+            font-family: "AeonikTRIAL" !important;
+            width: 70%;
+            .Name_Time{
+                display: flex;
+                flex-direction: row;
+                gap: 10px;
+                align-items: center;
+
+                .NameContact{
+                    color: #1E1E1E;
+
+                    font-family: 'AeonikTRIAL';
+                    font-size: 0.8125rem;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    letter-spacing: 0.01788rem;
+                                        
+                }
+                .TimeMsg{
+                    color: #1E1E1E;
+
+                    font-family: 'AeonikTRIAL';
+                    font-size: 0.5rem;
+                    font-style: normal;
+                    font-weight: 200;
+                    line-height: normal;
+                    letter-spacing: 0.011rem;
+
+                }
+    
+            
+            }
+            .MessageDiv{
+                max-width: 70%!important;
+                .LastMsgText{
+                    color: #1E1E1E;
+                    font-family: 'AeonikTRIAL';
+                    font-size: 1rem;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    letter-spacing: 0.0165rem;                }
+            }
+
+                .FullscreenImage {
+                    width: 33%;
+                    z-index: 9999;
+                    margin: 0 auto;
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    border-radius: 10px;
+            
+            
+
+            }
+            
+                
+        }
+
+    }
+    
+}

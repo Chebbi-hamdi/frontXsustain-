@@ -1,0 +1,70 @@
+
+
+.ModalContainer {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: center;
+  border-radius: 7px;
+  width: 40%;
+  height: 74%;
+  /* padding: 10px; */
+  border: 2px solid #2468ff;
+  .ImageContainer {
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    padding: 20px;
+    align-items: center;
+    .CloseButton {
+      position: absolute;
+      z-index: 9; 
+      top: -30px;
+    }
+    .SelectButton {
+      position: absolute;
+      top: -30px;    }
+  }
+}
+
+
+.ButtonContainer {
+  padding: 10px 0 0 0 !important;
+  background-color: white !important;
+  color: 0 !important;
+  border: none !important;
+  height: 0 !important;
+
+  cursor: pointer;
+}
+.ButtonContainer:hover {
+  background-color: #ffffff !important;
+}
+.Btn_Cancel {
+  border: 1px solid;
+  border-radius: 2px;
+  width: 110px;
+  // padding: 10px;
+  margin-right: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  height: 29px;
+  font-family: "Aeonik";
+  background-color: white;
+}
+
+.Btn_Save {
+  border: 1px solid;
+  color: white;
+  border-radius: 2px;
+  width: 65px;
+  height: 29px;
+  padding: 2px;
+  margin-right: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: "Aeonik-Medium";
+  background-color: #2468ff !important;
+}
+
+

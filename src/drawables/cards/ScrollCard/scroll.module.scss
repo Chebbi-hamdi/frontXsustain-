@@ -1,0 +1,62 @@
+.box_input {
+    position: relative; /* Assurez-vous que le parent div est positionné */
+    width: 100%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    align-items: center;
+    align-content: center;
+    
+    
+    .label {
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 0em;
+        font-weight: bold;
+        font-family: 'AeonikTRIAL';
+
+    }
+    
+    .input {
+        width: 100%;
+        border: 1px solid #000;
+        border-radius: 5px;
+        height: 65px;
+        padding: 0.5rem;
+        margin-top: 0.95rem;
+        box-sizing: border-box;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1em;
+    }
+    
+    .dropdown {
+        position: absolute;
+        top: 60%;
+        margin-top: 2.28rem;
+        width: 100%;
+        border: 1px solid #000;
+        border-radius: 5px;
+        max-height: 100px; 
+        padding: 5px;
+        overflow-y: auto; /* Activer le défilement vertical */
+        z-index: 999; /* Assurez-vous que le dropdown est au-dessus des autres éléments */
+        
+        .dropdownItem {
+            align-items: center;
+            align-content: center;
+            padding-left: 10%;
+            align-self: center;
+            overflow-y: auto;
+            
+            &:hover {
+                
+                background-color: #f0f0f0; 
+            }
+        }
+    }
+}
+.inside{
+    width: 70%;
+}

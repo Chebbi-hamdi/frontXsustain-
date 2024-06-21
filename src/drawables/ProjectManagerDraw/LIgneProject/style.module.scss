@@ -1,0 +1,230 @@
+.BodyTabLigne{
+    display: flex;
+    gap: 3%;
+    width: 100%!important;
+    height: 4.5em;
+    align-items: center;
+    border-radius: 9px;
+    max-height: 7em;
+    .BigcONT{
+        display: flex;
+        gap: 3%;
+        width: 100%!important;
+        border-radius: 9px;
+        height: 4.5em;
+        justify-content: center;
+        align-items: center;
+    
+
+    }
+    .FakeCont{
+        height: 1em!important;
+    }
+    .ItemCont{
+        align-items: baseline;
+        display: flex;
+        justify-content: center;
+        width: 20%;
+
+        height: 100% !important;
+    
+    
+        .Item{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            height: 100%;
+            width: 100%;
+            gap: 10%;
+            
+            .Check_Cat{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 25%;
+                gap: 28%;
+                .CatImg{
+                    margin-left: 10%;
+                    height: 0.8em;
+                    width: 0.8m;
+                    cursor: pointer!important;
+
+
+                } 
+                .Checkbox{
+                    height: 1.1em;
+                    width: 1.1em;
+                    cursor: pointer!important;
+                }
+
+            }
+            .Img_Txt{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 62%;
+                gap: 15%;
+
+                .ItemImg{
+                    height: 40px;
+                    width: 40px;
+
+
+                }
+                .Ptxt{
+                    width: 13em;
+                    font-size: 1vw;
+                    font-family: 'AeonikTRIAL';
+                    font-size: min(1vw, 30px); /* Adjust the maximum value as per your requirement */
+                    font-size: max(18px); /* Adjust the maximum value as per your requirement */
+
+
+                }
+
+            }
+
+
+            
+        }
+
+    }
+    .StatusCont{
+        width: 20%!important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: 100% !important;
+
+
+        .Status{
+            width: 80%!important;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+
+            .StatusButt{
+                width: 70%;
+                height: 2em;
+                border: 0px solid black;
+                border-radius: 7px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer!important;
+
+                .Ptxt{
+                    height: 58%;
+                    
+                }
+
+        }
+
+
+        
+        }
+    }
+    .Req{
+        width: 20%!important;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        .ReqCont{
+            width: 65%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            .Ptxt{
+                height: 40%;
+                color: rgba(0, 0, 0, 0.427);
+            }
+
+        }
+        
+
+    }
+    .Designer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20%!important;
+
+
+        .DesignerCont{
+
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            flex-direction: row;
+            gap: 10%;
+            width: 100%;
+            .leFlex{
+                width: 70%;
+                align-items: center;
+                flex-direction: row;
+                gap:0.5em!important;
+
+                
+                .Img2{
+                border-radius: 50%;
+                height: 10%;
+                width: 15%;
+            }
+                .Ptxt{
+
+                }
+            }
+            
+        }
+        
+
+    }
+    .Sub{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20%!important;
+
+
+
+        .SubCont{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            gap: 10%;
+            width: 50%;
+            .leFlex{
+                width: 100%;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+                gap:0.5em!important;
+            .Img{
+                border-radius: 50%;
+                height: 25px;
+                width: 25px;
+            }
+            .Img2{
+                border-radius: 50%;
+            }
+
+            .Ptxt{
+
+            }}
+        }
+    }
+
+
+
+
+
+
+}
+

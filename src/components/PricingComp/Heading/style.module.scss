@@ -1,0 +1,165 @@
+@font-face {
+    font-family: "GrifterBold";
+    src: url("../../../assets/fonts/grifterbold.otf") format("opentype");
+    font-family: "AeonikRegular";
+    src: url("../../../assets/fonts/aeoniktrial-regular.otf") format("opentype");
+  }
+  
+  
+  
+  
+
+  .containerHeading {
+    position: relative; /* Set the container as relative */
+    color: #000;
+    text-align: center;
+    font-family: "GrifterBold", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;   
+    padding-top: 3%; 
+
+  }
+  
+
+    .sousMot {
+      position: absolute; 
+      top: 90.5%; 
+      left: 50%; 
+      transform: translateX(-50%); 
+      width: 28vw;
+    }
+    
+  .Grid1-3 {
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 0;
+	width: 100%;
+	height: 100%;
+}
+.grid-child1-3 {
+	grid-area: 1/1/2/2;
+}
+.grid-child2-3 {
+	grid-area: 1/2/2/3;
+}
+.grid-child3-3 {
+    grid-area: 1/4/2/5; 
+}
+.panda{
+    width: 90px;
+height: 110px;
+margin-left: 106px;
+padding-top: 52px;
+}
+.text2{
+    color: rgba(0, 0, 0, 0.54);
+font-family: "AeonikRegular";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.pos{
+    padding-top: 83px;
+    text-align: center;
+
+}
+.posSelectd{
+    width: 50px;
+height: 173px;
+border-radius: 7px;
+background: #000;
+
+
+}
+.verticalText {
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    width: 50px;
+    height: 173px;
+    font-family: "GrifterBold", sans-serif;
+
+
+  }
+  .positionRIght0{
+    position: absolute;
+    right: -1%;
+  }
+  .pt-31{
+    padding-top: 31px;
+  }
+  @media only screen and (max-width: 768px) {
+    .hideInPhone{
+      
+      display: none;
+    }
+    .container {
+      font-size: 42px; /* Reduce font size for smaller screens */
+    }
+  
+    
+    .panda {
+      margin-left: auto; /* Center the panda image */
+      margin-right: auto;
+      padding-top: 20px; /* Reduce top padding */
+    }
+  
+    .text2 {
+      padding-top: 20px; /* Reduce top padding */
+    }
+    .container{
+      margin-top: -12% !important;
+      margin-bottom: -25% !important;
+    }
+  }
+  
+.SousTitreDivLand{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+.SousTitreLand{
+  width: 100%;
+  text-align: center;
+  color: #00000090;
+  font-size: min(1.7vw,40px);
+  font-family: 'AeonikTRIAL';
+
+}
+.SousTitreContainerLand{
+  font-size: max(0.9vw,20px);
+  width: 60%;
+  display: flex;
+}
+.LeFlex{
+  display: flex;
+  height: 197px;
+}
+.PandaFlex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+}
+.pandaImg{
+  height: 50%!important;
+}
+.spanBlue{
+    color: blue;
+
+}
+.CenterPlan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    .plan{
+        margin-left: -14%;
+        width: 60%;
+        margin-bottom: 4%;
+    }
+}

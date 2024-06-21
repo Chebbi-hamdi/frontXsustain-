@@ -1,0 +1,83 @@
+.MainReview{
+    border: 1.5px solid black;
+    border-radius: 9px;
+    height: 100%!important;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    .DraftHeader{
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .DraftHeaderCont{
+            display: flex;
+            align-items: flex-end;
+
+            .CenterizeDraft{
+                height: 70%;
+                width: 92% !important;
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+            
+                .txtTitle{
+                    font-family: "AeonikTRIAL"!important;
+                    font-size: 1.1em!important;
+                    font-weight: 580;
+        
+
+
+
+            }
+            .Hint{   font-family: "AeonikTRIAL"!important;
+                font-size: 1em!important;
+                font-weight: 500;
+                color: rgba(0, 0, 0, 0.368);
+
+            }
+            }
+            
+
+        }
+
+    }
+    .RecentSave{
+        display: flex;
+        justify-content: center;
+
+        
+        
+    }
+    .ButtonDiv{
+        display: flex;
+        justify-content: center;
+
+
+        .ButtonDivCont{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+            gap: 5px;
+    
+
+            .RecentsaveTxt{
+                font-family: "AeonikTRIAL"!important;
+                font-size: 1em!important;
+                font-weight: 580;
+                color: rgba(0, 0, 0, 0.368);
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+
+            }
+
+        }
+
+    }
+   
+}
+
+//21480205

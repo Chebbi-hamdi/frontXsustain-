@@ -1,0 +1,13 @@
+.cropper-modal {
+    background-color: #ffffff !important;
+    opacity: 0 !important;
+    /* top: -12px !important; */
+  }
+  .cropper-view-box {
+    outline: 5px solid #2468ff !important;
+  }
+  
+  .cropper-drag-box{
+    top: -13px !important;
+  }
+  

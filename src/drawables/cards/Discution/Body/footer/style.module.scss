@@ -1,0 +1,68 @@
+.MainCardF{
+    display: flex;
+    font-family: "GRIFTER";
+    height: 65px;
+    width: 100%;
+border: 1px solid black;    z-index: 9999999999999;
+    justify-content: space-around;
+    align-items: center;
+    .SecondCarfF{
+
+        .blhy{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .Picker{
+                z-index: 10000000000000000000;
+                position: relative;
+                left: -26%;
+                top: -473px;
+                height: 0;
+                width: 0;
+                
+            }
+
+
+
+          
+            .ipnutbox{
+                height: 40px;
+                border-radius: 9px;
+                font-size: 1em;
+                left: 0;
+                width: 100%;
+                background-color: #F9F9F9;
+                border: 1px solid black;
+                
+                    
+            }
+            .ipnutbox::-webkit-input-placeholder {
+                color: rgb(0, 0, 0);
+                width: 70%;
+                opacity: 0.4;
+                padding-left: 1.5%;
+                }
+            .EmojiBox {
+            position: relative;
+            top: 0%;
+            left: -6.5%;
+            /* transform: translate(-50%, -50%); */
+            display: flex;
+            z-index: 10;
+            gap: 15px;
+            width: 0px;                    
+            .Emoji{
+                cursor: pointer;
+                background-color: aliceblue;
+            }
+            }
+            }
+
+    }
+
+           
+               }
+
+
+
+    

@@ -10,7 +10,7 @@ const PreviewModal = ({commentImageData} ) => {
     if (commentImageData !== null) {
       console.log("---------------------------------commentResponse---------------------",commentImageData)
 
-    axios.get(`http://192.168.11.113:3000/api/v0/comment/${commentImageData?._id}`)
+    axios.get(`http://localhost:3000/api/v0/comment/${commentImageData?._id}`)
       .then((response) => {
         console.log('response', response);
         const { image, comments } = response.data;

@@ -38,8 +38,8 @@ export default function PriceDiv(props,wid) {
     const handleTransaction = async () => {
       // event.preventDefault();
       try {
-        // const response = await axios.post('http://localhost:3000/api/v0/payment', { amount: props.price  });
-        const response = await axios.post('http://192.168.11.113:3000/api/v0/payment', { amount: props.price  });
+        const response = await axios.post('http://localhost:3000/api/v0/payment', { amount: props.price  });
+        // const response = await axios.post('http://192.168.11.113:3000/api/v0/payment', { amount: props.price  });
         const resultLink = response.data.result;
   
           window.location.href = resultLink.link;

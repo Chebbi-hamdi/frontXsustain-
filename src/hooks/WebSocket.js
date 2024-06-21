@@ -11,8 +11,8 @@ const useWebSocket = (user, dataNotif, refetchNotif) => {
   const notifGlob = useSelector(getNotifGlob);
 
   useEffect(() => {
-    // const newSocket = io(`http://localhost:3000`);
-    const newSocket = io(`http://192.168.11.113:3000`); // Change the URL to your server URL
+    const newSocket = io(`http://localhost:3000`);
+    // const newSocket = io(`http://192.168.11.113:3000`); // Change the URL to your server URL
     dispatch(setSocket(newSocket));
 
     if (user?._id) {

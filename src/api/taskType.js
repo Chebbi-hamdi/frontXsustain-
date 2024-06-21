@@ -1,7 +1,7 @@
 import customAxios from '../axios/customAxios';
 
-// const API_URL = "http://localhost:3000/api/v0/tasktypes";
-const API_URL = "http://192.168.11.113:3000/api/v0/tasktypes";
+const API_URL = "http://localhost:3000/api/v0/tasktypes";
+// const API_URL = "http://192.168.11.113:3000/api/v0/tasktypes";
 
 const createTask = async (data) => {
   try {
@@ -26,7 +26,7 @@ const createTask = async (data) => {
 
     console.log("Creating task...", taskData);
     const response = await customAxios.post(
-      "http://192.168.11.113:3000/api/v0/tasks/create",
+      "http://localhost:3000/api/v0/tasks/create",
       taskData
     );
 
@@ -39,7 +39,7 @@ const createTask = async (data) => {
  export  const getAllTypes = async () => {
   try {
     console.log("Fetching tasks...");
-    const response = await customAxios.get('http://192.168.11.113:3000/api/v0/tasktypes');
+    const response = await customAxios.get('http://localhost:3000/api/v0/tasktypes');
     const TasksData = response.data;
     return TasksData;
   } catch (error) {
@@ -50,7 +50,7 @@ const createTask = async (data) => {
 export  const getTypeByIs = async (id) => {
   try {
     console.log("Fetching task...");
-    const response = await customAxios.get(`http://192.168.11.113:3000/api/v0/tasktypes/${id}`);
+    const response = await customAxios.get(`http://localhost:3000/api/v0/tasktypes/${id}`);
     console.log("+}}}}}}}}}}}}}}}}}}}}}}}}}}}+", response);
     return response.data;
   } catch (error) {

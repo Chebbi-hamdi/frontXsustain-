@@ -31,13 +31,13 @@ loginMutation.mutate(data,{
 };
 const handleGoogleSignIn = () => {
     // Rediriger vers l'URL d'authentification Google
-   //  window.location.href = "http://localhost:3000/api/v0/auth/google";
-      window.location.href = "http://192.168.11.113:3000/api/v0/auth/google";
+    window.location.href = "http://localhost:3000/api/v0/auth/google";
+      // window.location.href = "http://192.168.11.113:3000/api/v0/auth/google";
 };
 const handleLinkedinSignIn = () => {
     // Rediriger vers l'URL d'authentification Facebook
-   //  window.location.href = "http://localhost:3000/api/v0/auth/linkedin";
-   window.location.href = "http://192.168.11.113:3000/api/v0/auth/linkedin";
+    window.location.href = "http://localhost:3000/api/v0/auth/linkedin";
+   // window.location.href = "http://192.168.11.113:3000/api/v0/auth/linkedin";
 
 }
 return (

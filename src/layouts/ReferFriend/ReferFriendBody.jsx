@@ -41,7 +41,7 @@ const handleRecaptcha = async () => {
     }
 
       const response = await axios.post(
-        "http://192.168.11.113:3000/api/v0/captcha/verify",
+        "http://localhost:3000/api/v0/captcha/verify",
         {
           captchaValue: recaptchaValue,
           email,

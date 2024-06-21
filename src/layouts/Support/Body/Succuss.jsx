@@ -15,8 +15,8 @@ const Success = () => {
   console.log("amount-------------", amount);
   useEffect(() => {
     axios
-      // .post(`http://localhost:3000/api/v0/payment/${paymentId}`)
-      .post(`http://192.168.11.113:3000/api/v0/payment/${paymentId}`)
+      .post(`http://localhost:3000/api/v0/payment/${paymentId}`)
+      // .post(`http://192.168.11.113:3000/api/v0/payment/${paymentId}`)
       .then((response) => {
         console.log("response-------------", response); 
         setSavedData(response.data.result);
@@ -28,8 +28,8 @@ const Success = () => {
   
   useEffect(() => {
     if (savedData) {
-      // axios.post(`http://localhost:3000/api/v0/transaction`, {
-      axios.post(`http://192.168.11.113:3000/api/v0/transaction`, {
+      axios.post(`http://localhost:3000/api/v0/transaction`, {
+      // axios.post(`http://192.168.11.113:3000/api/v0/transaction`, {
         amount: amount,
         order: savedData?.details?.order_number,
         name: savedData?.details?.name,
@@ -51,8 +51,8 @@ const Success = () => {
       <button
         onClick={() =>
           // Redirect to the home page
-          // (window.location.href = "http://localhost:3001/sign_in")
-          (window.location.href = "http://192.168.11.113:3001/sign_in")
+          (window.location.href = "http://localhost:3001/sign_in")
+          // (window.location.href = "http://192.168.11.113:3001/sign_in")
         }
       >
         Continue

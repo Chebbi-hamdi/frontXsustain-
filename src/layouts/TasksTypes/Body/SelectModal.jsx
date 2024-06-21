@@ -109,7 +109,7 @@ const SelectModal = ({ selectedFile, setShowDiv, commentImageData }) => {
     };
     console.log("dakkkkkkkkkta", commentResponse);
     axios
-      .put(`http://192.168.11.113:3000/api/v0/comment/${commentResponse?._id}`, data)
+      .put(`http://localhost:3000/api/v0/comment/${commentResponse?._id}`, data)
       .then((res) => {
         console.log("ressssss", res.data);
         setCommentResponse(res.data);

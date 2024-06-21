@@ -39,7 +39,7 @@ const Body = () => {
     console.log("clicked",formData)
     e.preventDefault(); // Prevent default form submission behavior
     try {
-      const response = await axios.post('http://192.168.11.113:3000/api/v0/team/contact', formData, {
+      const response = await axios.post('http://localhost:3000/api/v0/team/contact', formData, {
         headers: {
             'Content-Type': 'application/json',
         },
